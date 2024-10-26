@@ -1,6 +1,22 @@
 # The GravInv3DHMC package
 Version of 2024-06-30 by ChuWei
 
+使用GravInv3DHMC软件包可实现基于哈密顿蒙特卡洛采样（Hamiltonian Monte Carlo，HMC）的三维重力反演。 
+
+工程还在更新中。。。
+
+
+已实现并验证有效性：  
+>笛卡尔坐标系的三维重力反演  
+>地心球坐标系的三维重力反演
+
+已实现并未验证有效性：  
+>笛卡尔坐标系的三维磁法反演  
+
+待实现
+>地心球坐标系的三维磁法反演  
+>重磁联合反演
+
 ## Installing
 ```shell
 conda create HMCINV  
