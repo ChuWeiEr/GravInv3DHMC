@@ -1,0 +1,1 @@
+{"set": "model01_singlecube", "test": "T1", "rhomin": 0, "rhomax": 1, "mspacing": [100, 100, 100], "Lrange": [5, 20], "delta": 0.01, "Sigma": 0.001, "RegulFactor": 1, "regularization": "MS", "beta": 0.001, "nsamples": 500}

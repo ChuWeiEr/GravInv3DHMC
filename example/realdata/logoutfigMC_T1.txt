@@ -1,0 +1,20 @@
+SC	T1
+Begain to calculate at  2023-11-10-09:51:44
+Traceback (most recent call last):
+  File "plot_real_multichain.py", line 289, in <module>
+    main(set, test, mspacing, rhomin, rhomax, nsamples, chains)
+  File "plot_real_multichain.py", line 91, in main
+    plt.plot(np.arange(0, nsamples), misfit_total_norm)
+  File "/home/chuwei/anaconda3/envs/inversion/lib/python3.7/site-packages/matplotlib/pyplot.py", line 3363, in plot
+    ret = ax.plot(*args, **kwargs)
+  File "/home/chuwei/anaconda3/envs/inversion/lib/python3.7/site-packages/matplotlib/__init__.py", line 1867, in inner
+    return func(ax, *args, **kwargs)
+  File "/home/chuwei/anaconda3/envs/inversion/lib/python3.7/site-packages/matplotlib/axes/_axes.py", line 1528, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "/home/chuwei/anaconda3/envs/inversion/lib/python3.7/site-packages/matplotlib/axes/_base.py", line 406, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "/home/chuwei/anaconda3/envs/inversion/lib/python3.7/site-packages/matplotlib/axes/_base.py", line 383, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "/home/chuwei/anaconda3/envs/inversion/lib/python3.7/site-packages/matplotlib/axes/_base.py", line 242, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ValueError: x and y must have same first dimension, but have shapes (1000,) and (433,)

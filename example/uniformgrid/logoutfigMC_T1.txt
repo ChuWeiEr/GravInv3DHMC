@@ -1,0 +1,12 @@
+model01_singlecube	T1
+Begain to calculate at  2023-11-10-11:30:40
+Uniform grid with new boundaries: (0, 2000, 0, 3000, 0, 1000)
+Uniform grid with new boundaries: (0, 2000, 0, 3000, 0, 1000)
+RMSD: 0.08007523758419459
+RMSM: 0.06856112230773799
+Successfully plot chain-0 by analysing last 100 samples
+Uniform grid with new boundaries: (0, 2000, 0, 3000, 0, 1000)
+Uniform grid with new boundaries: (0, 2000, 0, 3000, 0, 1000)
+RMSD: 0.07718653919386033
+RMSM: 0.06481363588092431
+Successfully plot chain-1 by analysing last 100 samples

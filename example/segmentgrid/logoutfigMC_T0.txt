@@ -1,0 +1,28 @@
+model_seg	T0
+Begain to calculate at  2023-11-10-12:04:30
+[100, 200, 300]
+nz is  10.0
+nzlist is [3. 3. 4.]
+nzsumlist is [ 3.  6. 10.]
+Uniform Segment grid with new boundaries: (0, 2000, 0, 3000, 0, 2100.0)
+[100, 200, 300]
+nz is  10.0
+nzlist is [3. 3. 4.]
+nzsumlist is [ 3.  6. 10.]
+Uniform Segment grid with new boundaries: (0, 2000, 0, 3000, 0, 2100.0)
+RMSD: 0.08950857899526665
+RMSM: 0.06440673958229279
+Successfully plot chain-0 by analysing last 100 samples
+[100, 200, 300]
+nz is  10.0
+nzlist is [3. 3. 4.]
+nzsumlist is [ 3.  6. 10.]
+Uniform Segment grid with new boundaries: (0, 2000, 0, 3000, 0, 2100.0)
+[100, 200, 300]
+nz is  10.0
+nzlist is [3. 3. 4.]
+nzsumlist is [ 3.  6. 10.]
+Uniform Segment grid with new boundaries: (0, 2000, 0, 3000, 0, 2100.0)
+RMSD: 0.08906170925454798
+RMSM: 0.06600797190294629
+Successfully plot chain-1 by analysing last 100 samples

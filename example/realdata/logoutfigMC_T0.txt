@@ -1,0 +1,14 @@
+SC	T0
+Begain to calculate at  2023-11-10-09:51:44
+(200, 10427)
+[-1000, -2000, -5000]
+nz is  21.0
+nzlist is [7. 5. 9.]
+nzsumlist is [ 7. 12. 21.]
+Uniform Segment grid with new boundaries: (106.5, 118.5, 16, 28.0, 2000, -60000.0)
+[-1000, -2000, -5000]
+nz is  21.0
+nzlist is [7. 5. 9.]
+nzsumlist is [ 7. 12. 21.]
+Uniform Segment grid with new boundaries: (106.5, 118.5, 16, 28.0, 2000, -60000.0)
+Successfully plot all 2 chains by analysing last 100 samples of each chain

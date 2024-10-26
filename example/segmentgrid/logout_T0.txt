@@ -1,0 +1,2056 @@
+Total memory of this computer:251.3130 GB
+Current memory usage 7.90 %:
+Number of cpu: 72
+Begain to calculate at  2023-11-10-11:59:00
+model_seg	T0
+Parameters info: 
+boundaries=[0.00, 1.00], dt=[0.01000], L=[5, 20],
+regularization=MS, beta=0.0010, nsamples=500
+Calculating gravity field in cartesian coordinate.
+[100, 200, 300]
+nz is  10.0
+nzlist is [3. 3. 4.]
+nzsumlist is [ 3.  6. 10.]
+Uniform Segment grid with new boundaries: (0, 2000, 0, 3000, 0, 2100.0)
+Start of calculate kernel
+Total memory of this computer:251.3130 GB
+Current memory usage 7.90 %:
+Number of cpu: 72
+Begain to calculate at  2023-11-10-11:59:00
+model_seg	T0
+Parameters info: 
+boundaries=[0.00, 1.00], dt=[0.01000], L=[5, 20],
+regularization=MS, beta=0.0010, nsamples=500
+Calculating gravity field in cartesian coordinate.
+[100, 200, 300]
+nz is  10.0
+nzlist is [3. 3. 4.]
+nzsumlist is [ 3.  6. 10.]
+Uniform Segment grid with new boundaries: (0, 2000, 0, 3000, 0, 2100.0)
+Start of calculate kernel
+kernel.shape (600, 6000)
+End of calculate kernel:1.471380 s
+Start to weight kernel
+End of weighting kernel: 1.616441 s
+Using 3D wavelet to compress kernel.
+model shape(nz, ny, nx): 6000
+initial mw: [1.11688406e-03 1.17997832e-03 1.22696931e-03 ... 6.64063041e-05
+ 6.45540694e-05 6.25209207e-05]
+mw boundaryies: [1.11688406 1.17997832 1.22696931 ... 0.0664063  0.06455407 0.06252092] [0. 0. 0. ... 0. 0. 0.]
+Using mandatory boundary constraint.
+chain 0: 0.20%, misfit(total, data, alpha, model)=(0.3781935,0.3668946,1.00,0.0112989) -- accept ratio 100.00%
+
+kernel.shape (600, 6000)
+End of calculate kernel:1.461002 s
+Start to weight kernel
+End of weighting kernel: 1.631717 s
+Using 3D wavelet to compress kernel.
+model shape(nz, ny, nx): 6000
+initial mw: [1.11688406e-03 1.17997832e-03 1.22696931e-03 ... 6.64063041e-05
+ 6.45540694e-05 6.25209207e-05]
+mw boundaryies: [1.11688406 1.17997832 1.22696931 ... 0.0664063  0.06455407 0.06252092] [0. 0. 0. ... 0. 0. 0.]
+Using mandatory boundary constraint.
+chain 1: 0.20%, misfit(total, data, alpha, model)=(0.0761367,0.0612996,1.00,0.0148371) -- accept ratio 100.00%
+
+chain 0: 0.40%, misfit(total, data, alpha, model)=(0.1058750,0.0955870,1.00,0.0102880) -- accept ratio 100.00%
+
+chain 0: 0.60%, misfit(total, data, alpha, model)=(0.0620053,0.0530843,1.00,0.0089209) -- accept ratio 100.00%
+
+chain 1: 0.40%, misfit(total, data, alpha, model)=(0.0297615,0.0201522,1.00,0.0096093) -- accept ratio 100.00%
+
+chain 1: 0.60%, misfit(total, data, alpha, model)=(0.0211812,0.0139875,1.00,0.0071937) -- accept ratio 100.00%
+
+chain 0: 0.80%, misfit(total, data, alpha, model)=(0.0164427,0.0108722,1.00,0.0055705) -- accept ratio 100.00%
+
+chain 1: 0.80%, misfit(total, data, alpha, model)=(0.0189708,0.0126025,1.00,0.0063683) -- accept ratio 100.00%
+
+chain 0: 1.00%, misfit(total, data, alpha, model)=(0.0142978,0.0093848,1.00,0.0049130) -- accept ratio 100.00%
+
+chain 1: 1.00%, misfit(total, data, alpha, model)=(0.0146477,0.0095102,1.00,0.0051375) -- accept ratio 100.00%
+
+chain 0: 1.20%, misfit(total, data, alpha, model)=(0.0143710,0.0103158,1.00,0.0040552) -- accept ratio 100.00%
+
+chain 1: 1.00%, misfit(total, data, alpha, model)=(0.0146477,0.0095102,1.00,0.0051375) -- accept ratio 83.33%
+
+chain 0: 1.40%, misfit(total, data, alpha, model)=(0.0131677,0.0092122,1.00,0.0039555) -- accept ratio 100.00%
+
+chain 0: 1.60%, misfit(total, data, alpha, model)=(0.0130882,0.0091826,1.00,0.0039057) -- accept ratio 100.00%
+
+chain 1: 1.20%, misfit(total, data, alpha, model)=(0.0135698,0.0089106,1.00,0.0046592) -- accept ratio 85.71%
+
+chain 0: 1.80%, misfit(total, data, alpha, model)=(0.0127516,0.0088780,1.00,0.0038735) -- accept ratio 100.00%
+
+chain 1: 1.40%, misfit(total, data, alpha, model)=(0.0130835,0.0086417,1.00,0.0044418) -- accept ratio 87.50%
+
+chain 0: 2.00%, misfit(total, data, alpha, model)=(0.0127205,0.0088742,1.00,0.0038462) -- accept ratio 100.00%
+
+chain 1: 1.60%, misfit(total, data, alpha, model)=(0.0127452,0.0084485,1.00,0.0042967) -- accept ratio 88.89%
+
+chain 1: 1.80%, misfit(total, data, alpha, model)=(0.0125878,0.0083752,1.00,0.0042126) -- accept ratio 90.00%
+
+chain 0: 2.20%, misfit(total, data, alpha, model)=(0.0123184,0.0085199,1.00,0.0037985) -- accept ratio 100.00%
+
+chain 0: 2.40%, misfit(total, data, alpha, model)=(0.0122544,0.0084629,1.00,0.0037915) -- accept ratio 100.00%
+
+chain 1: 2.00%, misfit(total, data, alpha, model)=(0.0124174,0.0082451,1.00,0.0041723) -- accept ratio 90.91%
+
+chain 0: 2.60%, misfit(total, data, alpha, model)=(0.0120494,0.0082862,1.00,0.0037633) -- accept ratio 100.00%
+
+chain 1: 2.20%, misfit(total, data, alpha, model)=(0.0120621,0.0079923,1.00,0.0040698) -- accept ratio 91.67%
+
+chain 0: 2.80%, misfit(total, data, alpha, model)=(0.0118219,0.0080922,1.00,0.0037297) -- accept ratio 100.00%
+
+chain 0: 3.00%, misfit(total, data, alpha, model)=(0.0117931,0.0080718,1.00,0.0037213) -- accept ratio 100.00%
+
+chain 1: 2.40%, misfit(total, data, alpha, model)=(0.0119742,0.0079304,1.00,0.0040438) -- accept ratio 92.31%
+
+chain 0: 3.20%, misfit(total, data, alpha, model)=(0.0117328,0.0080171,1.00,0.0037157) -- accept ratio 100.00%
+
+chain 1: 2.60%, misfit(total, data, alpha, model)=(0.0119101,0.0078802,1.00,0.0040300) -- accept ratio 92.86%
+
+chain 0: 3.40%, misfit(total, data, alpha, model)=(0.0116749,0.0079671,1.00,0.0037077) -- accept ratio 100.00%
+
+chain 1: 2.80%, misfit(total, data, alpha, model)=(0.0118137,0.0078111,1.00,0.0040026) -- accept ratio 93.33%
+
+chain 0: 3.60%, misfit(total, data, alpha, model)=(0.0116539,0.0079481,1.00,0.0037058) -- accept ratio 100.00%
+
+chain 1: 3.00%, misfit(total, data, alpha, model)=(0.0117630,0.0077749,1.00,0.0039881) -- accept ratio 93.75%
+
+chain 0: 3.80%, misfit(total, data, alpha, model)=(0.0116149,0.0079136,1.00,0.0037013) -- accept ratio 100.00%
+
+chain 0: 4.00%, misfit(total, data, alpha, model)=(0.0115915,0.0078924,1.00,0.0036992) -- accept ratio 100.00%
+
+chain 1: 3.20%, misfit(total, data, alpha, model)=(0.0115799,0.0076366,1.00,0.0039433) -- accept ratio 94.12%
+
+chain 0: 4.20%, misfit(total, data, alpha, model)=(0.0115699,0.0078727,1.00,0.0036972) -- accept ratio 100.00%
+
+chain 0: 4.40%, misfit(total, data, alpha, model)=(0.0114463,0.0077595,1.00,0.0036869) -- accept ratio 100.00%
+
+chain 1: 3.40%, misfit(total, data, alpha, model)=(0.0114255,0.0075187,1.00,0.0039069) -- accept ratio 94.44%
+
+chain 0: 4.60%, misfit(total, data, alpha, model)=(0.0114071,0.0077239,1.00,0.0036833) -- accept ratio 100.00%
+
+chain 1: 3.60%, misfit(total, data, alpha, model)=(0.0114008,0.0075127,1.00,0.0038881) -- accept ratio 94.74%
+
+chain 0: 4.80%, misfit(total, data, alpha, model)=(0.0113065,0.0076358,1.00,0.0036707) -- accept ratio 100.00%
+
+chain 1: 3.80%, misfit(total, data, alpha, model)=(0.0112556,0.0073955,1.00,0.0038601) -- accept ratio 95.00%
+
+chain 0: 5.00%, misfit(total, data, alpha, model)=(0.0112679,0.0076035,1.00,0.0036645) -- accept ratio 100.00%
+
+chain 1: 4.00%, misfit(total, data, alpha, model)=(0.0112323,0.0073847,1.00,0.0038475) -- accept ratio 95.24%
+
+chain 0: 5.20%, misfit(total, data, alpha, model)=(0.0112371,0.0075775,1.00,0.0036596) -- accept ratio 100.00%
+
+chain 1: 4.20%, misfit(total, data, alpha, model)=(0.0112047,0.0073613,1.00,0.0038434) -- accept ratio 95.45%
+
+chain 0: 5.40%, misfit(total, data, alpha, model)=(0.0112299,0.0075714,1.00,0.0036585) -- accept ratio 100.00%
+
+chain 0: 5.60%, misfit(total, data, alpha, model)=(0.0112156,0.0075593,1.00,0.0036564) -- accept ratio 100.00%
+
+chain 1: 4.40%, misfit(total, data, alpha, model)=(0.0111374,0.0073052,1.00,0.0038322) -- accept ratio 95.65%
+
+chain 0: 5.80%, misfit(total, data, alpha, model)=(0.0111689,0.0075200,1.00,0.0036489) -- accept ratio 100.00%
+
+chain 0: 6.00%, misfit(total, data, alpha, model)=(0.0111571,0.0075106,1.00,0.0036465) -- accept ratio 100.00%
+
+chain 1: 4.60%, misfit(total, data, alpha, model)=(0.0110538,0.0072402,1.00,0.0038136) -- accept ratio 95.83%
+
+chain 1: 4.80%, misfit(total, data, alpha, model)=(0.0110477,0.0072366,1.00,0.0038111) -- accept ratio 96.00%
+
+chain 0: 6.20%, misfit(total, data, alpha, model)=(0.0110658,0.0074367,1.00,0.0036291) -- accept ratio 100.00%
+
+chain 1: 5.00%, misfit(total, data, alpha, model)=(0.0110267,0.0072239,1.00,0.0038029) -- accept ratio 96.15%
+
+chain 0: 6.40%, misfit(total, data, alpha, model)=(0.0110478,0.0074225,1.00,0.0036253) -- accept ratio 100.00%
+
+chain 0: 6.60%, misfit(total, data, alpha, model)=(0.0110338,0.0074118,1.00,0.0036220) -- accept ratio 100.00%
+
+chain 1: 5.20%, misfit(total, data, alpha, model)=(0.0109811,0.0072002,1.00,0.0037809) -- accept ratio 96.30%
+
+chain 0: 6.80%, misfit(total, data, alpha, model)=(0.0109984,0.0073860,1.00,0.0036125) -- accept ratio 100.00%
+
+chain 1: 5.40%, misfit(total, data, alpha, model)=(0.0109076,0.0071599,1.00,0.0037477) -- accept ratio 96.43%
+
+chain 0: 7.00%, misfit(total, data, alpha, model)=(0.0108777,0.0073328,1.00,0.0035449) -- accept ratio 100.00%
+
+chain 1: 5.60%, misfit(total, data, alpha, model)=(0.0108647,0.0071579,1.00,0.0037068) -- accept ratio 96.55%
+
+chain 0: 7.20%, misfit(total, data, alpha, model)=(0.0108293,0.0072933,1.00,0.0035360) -- accept ratio 100.00%
+
+chain 1: 5.80%, misfit(total, data, alpha, model)=(0.0107752,0.0071287,1.00,0.0036465) -- accept ratio 96.67%
+
+chain 0: 7.40%, misfit(total, data, alpha, model)=(0.0107831,0.0072673,1.00,0.0035157) -- accept ratio 100.00%
+
+chain 1: 6.00%, misfit(total, data, alpha, model)=(0.0107265,0.0071212,1.00,0.0036053) -- accept ratio 96.77%
+
+chain 0: 7.60%, misfit(total, data, alpha, model)=(0.0107584,0.0072623,1.00,0.0034961) -- accept ratio 100.00%
+
+chain 1: 6.20%, misfit(total, data, alpha, model)=(0.0106881,0.0070966,1.00,0.0035915) -- accept ratio 96.88%
+
+chain 0: 7.80%, misfit(total, data, alpha, model)=(0.0107031,0.0072481,1.00,0.0034550) -- accept ratio 100.00%
+
+chain 1: 6.40%, misfit(total, data, alpha, model)=(0.0106766,0.0070989,1.00,0.0035777) -- accept ratio 96.97%
+
+chain 0: 8.00%, misfit(total, data, alpha, model)=(0.0106846,0.0072439,1.00,0.0034406) -- accept ratio 100.00%
+
+chain 1: 6.60%, misfit(total, data, alpha, model)=(0.0106468,0.0070878,1.00,0.0035590) -- accept ratio 97.06%
+
+chain 0: 8.20%, misfit(total, data, alpha, model)=(0.0106474,0.0072139,1.00,0.0034336) -- accept ratio 100.00%
+
+chain 1: 6.80%, misfit(total, data, alpha, model)=(0.0106291,0.0070864,1.00,0.0035426) -- accept ratio 97.14%
+
+chain 0: 8.40%, misfit(total, data, alpha, model)=(0.0106244,0.0072101,1.00,0.0034143) -- accept ratio 100.00%
+
+chain 0: 8.60%, misfit(total, data, alpha, model)=(0.0106147,0.0072028,1.00,0.0034119) -- accept ratio 100.00%
+
+chain 1: 7.00%, misfit(total, data, alpha, model)=(0.0105189,0.0070668,1.00,0.0034521) -- accept ratio 97.22%
+
+chain 0: 8.80%, misfit(total, data, alpha, model)=(0.0106128,0.0072017,1.00,0.0034111) -- accept ratio 100.00%
+
+chain 1: 7.20%, misfit(total, data, alpha, model)=(0.0104815,0.0070730,1.00,0.0034085) -- accept ratio 97.30%
+
+chain 0: 9.00%, misfit(total, data, alpha, model)=(0.0105963,0.0071902,1.00,0.0034062) -- accept ratio 100.00%
+
+chain 1: 7.40%, misfit(total, data, alpha, model)=(0.0104643,0.0070693,1.00,0.0033950) -- accept ratio 97.37%
+
+chain 0: 9.20%, misfit(total, data, alpha, model)=(0.0105878,0.0071854,1.00,0.0034025) -- accept ratio 100.00%
+
+chain 0: 9.40%, misfit(total, data, alpha, model)=(0.0105765,0.0071797,1.00,0.0033968) -- accept ratio 100.00%
+
+chain 1: 7.60%, misfit(total, data, alpha, model)=(0.0104132,0.0070385,1.00,0.0033747) -- accept ratio 97.44%
+
+chain 0: 9.60%, misfit(total, data, alpha, model)=(0.0105728,0.0071778,1.00,0.0033950) -- accept ratio 100.00%
+
+chain 1: 7.80%, misfit(total, data, alpha, model)=(0.0103784,0.0070354,1.00,0.0033431) -- accept ratio 97.50%
+
+chain 0: 9.80%, misfit(total, data, alpha, model)=(0.0105401,0.0071653,1.00,0.0033748) -- accept ratio 100.00%
+
+chain 1: 8.00%, misfit(total, data, alpha, model)=(0.0103611,0.0070313,1.00,0.0033299) -- accept ratio 97.56%
+
+chain 0: 10.00%, misfit(total, data, alpha, model)=(0.0104381,0.0071449,1.00,0.0032932) -- accept ratio 100.00%
+
+chain 1: 8.20%, misfit(total, data, alpha, model)=(0.0103130,0.0070262,1.00,0.0032868) -- accept ratio 97.62%
+
+chain 0: 10.20%, misfit(total, data, alpha, model)=(0.0104044,0.0071406,1.00,0.0032638) -- accept ratio 100.00%
+
+chain 0: 10.40%, misfit(total, data, alpha, model)=(0.0103878,0.0071391,1.00,0.0032487) -- accept ratio 100.00%
+
+chain 1: 8.40%, misfit(total, data, alpha, model)=(0.0102278,0.0069946,1.00,0.0032333) -- accept ratio 97.67%
+
+chain 0: 10.60%, misfit(total, data, alpha, model)=(0.0102938,0.0071033,1.00,0.0031905) -- accept ratio 100.00%
+
+chain 1: 8.60%, misfit(total, data, alpha, model)=(0.0102155,0.0070067,1.00,0.0032088) -- accept ratio 97.73%
+
+chain 1: 8.80%, misfit(total, data, alpha, model)=(0.0101865,0.0069847,1.00,0.0032018) -- accept ratio 97.78%
+
+chain 0: 10.80%, misfit(total, data, alpha, model)=(0.0102580,0.0070835,1.00,0.0031745) -- accept ratio 100.00%
+
+chain 1: 9.00%, misfit(total, data, alpha, model)=(0.0101869,0.0069887,1.00,0.0031982) -- accept ratio 97.83%
+
+chain 0: 11.00%, misfit(total, data, alpha, model)=(0.0102292,0.0070827,1.00,0.0031465) -- accept ratio 100.00%
+
+chain 1: 9.20%, misfit(total, data, alpha, model)=(0.0101712,0.0069773,1.00,0.0031939) -- accept ratio 97.87%
+
+chain 0: 11.20%, misfit(total, data, alpha, model)=(0.0102119,0.0070695,1.00,0.0031424) -- accept ratio 100.00%
+
+chain 1: 9.40%, misfit(total, data, alpha, model)=(0.0101608,0.0069727,1.00,0.0031882) -- accept ratio 97.92%
+
+chain 0: 11.40%, misfit(total, data, alpha, model)=(0.0101910,0.0070597,1.00,0.0031313) -- accept ratio 100.00%
+
+chain 0: 11.60%, misfit(total, data, alpha, model)=(0.0101888,0.0070596,1.00,0.0031292) -- accept ratio 100.00%
+
+chain 1: 9.60%, misfit(total, data, alpha, model)=(0.0101108,0.0069630,1.00,0.0031478) -- accept ratio 97.96%
+
+chain 0: 11.80%, misfit(total, data, alpha, model)=(0.0101647,0.0070538,1.00,0.0031109) -- accept ratio 100.00%
+
+chain 1: 9.80%, misfit(total, data, alpha, model)=(0.0100977,0.0069534,1.00,0.0031443) -- accept ratio 98.00%
+
+chain 0: 12.00%, misfit(total, data, alpha, model)=(0.0101226,0.0070459,1.00,0.0030766) -- accept ratio 100.00%
+
+chain 1: 10.00%, misfit(total, data, alpha, model)=(0.0100975,0.0069536,1.00,0.0031439) -- accept ratio 98.04%
+
+chain 0: 12.20%, misfit(total, data, alpha, model)=(0.0100851,0.0070469,1.00,0.0030382) -- accept ratio 100.00%
+
+chain 1: 10.20%, misfit(total, data, alpha, model)=(0.0100879,0.0069470,1.00,0.0031409) -- accept ratio 98.08%
+
+chain 0: 12.40%, misfit(total, data, alpha, model)=(0.0100476,0.0070368,1.00,0.0030108) -- accept ratio 100.00%
+
+chain 1: 10.40%, misfit(total, data, alpha, model)=(0.0100766,0.0069409,1.00,0.0031358) -- accept ratio 98.11%
+
+chain 0: 12.60%, misfit(total, data, alpha, model)=(0.0100408,0.0070409,1.00,0.0029998) -- accept ratio 100.00%
+
+chain 1: 10.60%, misfit(total, data, alpha, model)=(0.0100694,0.0069379,1.00,0.0031315) -- accept ratio 98.15%
+
+chain 0: 12.80%, misfit(total, data, alpha, model)=(0.0100290,0.0070309,1.00,0.0029981) -- accept ratio 100.00%
+
+chain 1: 10.80%, misfit(total, data, alpha, model)=(0.0100614,0.0069360,1.00,0.0031254) -- accept ratio 98.18%
+
+chain 0: 13.00%, misfit(total, data, alpha, model)=(0.0100167,0.0070208,1.00,0.0029958) -- accept ratio 100.00%
+
+chain 1: 11.00%, misfit(total, data, alpha, model)=(0.0100535,0.0069315,1.00,0.0031220) -- accept ratio 98.21%
+
+chain 0: 13.20%, misfit(total, data, alpha, model)=(0.0100147,0.0070191,1.00,0.0029956) -- accept ratio 100.00%
+
+chain 1: 11.20%, misfit(total, data, alpha, model)=(0.0100505,0.0069299,1.00,0.0031206) -- accept ratio 98.25%
+
+chain 0: 13.40%, misfit(total, data, alpha, model)=(0.0100114,0.0070164,1.00,0.0029950) -- accept ratio 100.00%
+
+chain 1: 11.40%, misfit(total, data, alpha, model)=(0.0100451,0.0069263,1.00,0.0031189) -- accept ratio 98.28%
+
+chain 0: 13.60%, misfit(total, data, alpha, model)=(0.0099935,0.0070017,1.00,0.0029918) -- accept ratio 100.00%
+
+chain 1: 11.60%, misfit(total, data, alpha, model)=(0.0100421,0.0069255,1.00,0.0031166) -- accept ratio 98.31%
+
+chain 0: 13.80%, misfit(total, data, alpha, model)=(0.0099895,0.0069989,1.00,0.0029906) -- accept ratio 100.00%
+
+chain 1: 11.80%, misfit(total, data, alpha, model)=(0.0100389,0.0069236,1.00,0.0031152) -- accept ratio 98.33%
+
+chain 0: 14.00%, misfit(total, data, alpha, model)=(0.0099783,0.0069912,1.00,0.0029871) -- accept ratio 100.00%
+
+chain 1: 12.00%, misfit(total, data, alpha, model)=(0.0100163,0.0069211,1.00,0.0030952) -- accept ratio 98.36%
+
+chain 0: 14.20%, misfit(total, data, alpha, model)=(0.0099685,0.0069856,1.00,0.0029829) -- accept ratio 100.00%
+
+chain 1: 12.20%, misfit(total, data, alpha, model)=(0.0099978,0.0069148,1.00,0.0030830) -- accept ratio 98.39%
+
+chain 0: 14.40%, misfit(total, data, alpha, model)=(0.0099665,0.0069851,1.00,0.0029813) -- accept ratio 100.00%
+
+chain 0: 14.60%, misfit(total, data, alpha, model)=(0.0099620,0.0069831,1.00,0.0029789) -- accept ratio 100.00%
+
+chain 1: 12.40%, misfit(total, data, alpha, model)=(0.0099892,0.0069143,1.00,0.0030749) -- accept ratio 98.41%
+
+chain 1: 12.60%, misfit(total, data, alpha, model)=(0.0099781,0.0069095,1.00,0.0030687) -- accept ratio 98.44%
+
+chain 0: 14.80%, misfit(total, data, alpha, model)=(0.0099322,0.0069758,1.00,0.0029564) -- accept ratio 100.00%
+
+chain 0: 15.00%, misfit(total, data, alpha, model)=(0.0099238,0.0069753,1.00,0.0029485) -- accept ratio 100.00%
+
+chain 1: 12.80%, misfit(total, data, alpha, model)=(0.0099678,0.0069082,1.00,0.0030597) -- accept ratio 98.46%
+
+chain 0: 15.20%, misfit(total, data, alpha, model)=(0.0099094,0.0069668,1.00,0.0029425) -- accept ratio 100.00%
+
+chain 1: 13.00%, misfit(total, data, alpha, model)=(0.0099565,0.0069005,1.00,0.0030560) -- accept ratio 98.48%
+
+chain 0: 15.40%, misfit(total, data, alpha, model)=(0.0099046,0.0069680,1.00,0.0029366) -- accept ratio 100.00%
+
+chain 1: 13.20%, misfit(total, data, alpha, model)=(0.0099484,0.0068977,1.00,0.0030506) -- accept ratio 98.51%
+
+chain 0: 15.60%, misfit(total, data, alpha, model)=(0.0098988,0.0069660,1.00,0.0029329) -- accept ratio 100.00%
+
+chain 0: 15.80%, misfit(total, data, alpha, model)=(0.0098933,0.0069666,1.00,0.0029266) -- accept ratio 100.00%
+
+chain 1: 13.40%, misfit(total, data, alpha, model)=(0.0099379,0.0068934,1.00,0.0030446) -- accept ratio 98.53%
+
+chain 0: 16.00%, misfit(total, data, alpha, model)=(0.0098836,0.0069677,1.00,0.0029159) -- accept ratio 100.00%
+
+chain 0: 16.20%, misfit(total, data, alpha, model)=(0.0098690,0.0069608,1.00,0.0029082) -- accept ratio 100.00%
+
+chain 1: 13.60%, misfit(total, data, alpha, model)=(0.0099212,0.0068899,1.00,0.0030313) -- accept ratio 98.55%
+
+chain 1: 13.80%, misfit(total, data, alpha, model)=(0.0099092,0.0068884,1.00,0.0030209) -- accept ratio 98.57%
+
+chain 0: 16.40%, misfit(total, data, alpha, model)=(0.0098597,0.0069545,1.00,0.0029053) -- accept ratio 100.00%
+
+chain 0: 16.60%, misfit(total, data, alpha, model)=(0.0098558,0.0069561,1.00,0.0028998) -- accept ratio 100.00%
+
+chain 1: 14.00%, misfit(total, data, alpha, model)=(0.0099012,0.0068857,1.00,0.0030155) -- accept ratio 98.59%
+
+chain 0: 16.80%, misfit(total, data, alpha, model)=(0.0098416,0.0069461,1.00,0.0028955) -- accept ratio 100.00%
+
+chain 1: 14.20%, misfit(total, data, alpha, model)=(0.0098869,0.0068787,1.00,0.0030082) -- accept ratio 98.61%
+
+chain 0: 17.00%, misfit(total, data, alpha, model)=(0.0098231,0.0069374,1.00,0.0028857) -- accept ratio 100.00%
+
+chain 1: 14.40%, misfit(total, data, alpha, model)=(0.0098706,0.0068702,1.00,0.0030004) -- accept ratio 98.63%
+
+chain 0: 17.20%, misfit(total, data, alpha, model)=(0.0098126,0.0069349,1.00,0.0028777) -- accept ratio 100.00%
+
+chain 1: 14.60%, misfit(total, data, alpha, model)=(0.0098690,0.0068695,1.00,0.0029995) -- accept ratio 98.65%
+
+chain 1: 14.80%, misfit(total, data, alpha, model)=(0.0098676,0.0068684,1.00,0.0029992) -- accept ratio 98.67%
+
+chain 0: 17.40%, misfit(total, data, alpha, model)=(0.0098077,0.0069353,1.00,0.0028724) -- accept ratio 100.00%
+
+chain 1: 15.00%, misfit(total, data, alpha, model)=(0.0098669,0.0068679,1.00,0.0029990) -- accept ratio 98.68%
+
+chain 1: 15.20%, misfit(total, data, alpha, model)=(0.0098657,0.0068669,1.00,0.0029988) -- accept ratio 98.70%
+
+chain 0: 17.60%, misfit(total, data, alpha, model)=(0.0097800,0.0069305,1.00,0.0028495) -- accept ratio 100.00%
+
+chain 1: 15.40%, misfit(total, data, alpha, model)=(0.0098643,0.0068659,1.00,0.0029984) -- accept ratio 98.72%
+
+chain 0: 17.80%, misfit(total, data, alpha, model)=(0.0097672,0.0069315,1.00,0.0028357) -- accept ratio 100.00%
+
+chain 1: 15.60%, misfit(total, data, alpha, model)=(0.0098522,0.0068559,1.00,0.0029963) -- accept ratio 98.73%
+
+chain 0: 18.00%, misfit(total, data, alpha, model)=(0.0097461,0.0069185,1.00,0.0028276) -- accept ratio 100.00%
+
+chain 0: 18.20%, misfit(total, data, alpha, model)=(0.0097388,0.0069203,1.00,0.0028185) -- accept ratio 100.00%
+
+chain 1: 15.80%, misfit(total, data, alpha, model)=(0.0098405,0.0068476,1.00,0.0029929) -- accept ratio 98.75%
+
+chain 0: 18.40%, misfit(total, data, alpha, model)=(0.0096946,0.0069104,1.00,0.0027842) -- accept ratio 100.00%
+
+chain 1: 16.00%, misfit(total, data, alpha, model)=(0.0098368,0.0068453,1.00,0.0029915) -- accept ratio 98.77%
+
+chain 0: 18.60%, misfit(total, data, alpha, model)=(0.0096908,0.0069088,1.00,0.0027821) -- accept ratio 100.00%
+
+chain 1: 16.20%, misfit(total, data, alpha, model)=(0.0098340,0.0068436,1.00,0.0029904) -- accept ratio 98.78%
+
+chain 0: 18.80%, misfit(total, data, alpha, model)=(0.0096894,0.0069082,1.00,0.0027812) -- accept ratio 100.00%
+
+chain 0: 19.00%, misfit(total, data, alpha, model)=(0.0096813,0.0069024,1.00,0.0027790) -- accept ratio 100.00%
+
+chain 1: 16.40%, misfit(total, data, alpha, model)=(0.0098171,0.0068346,1.00,0.0029825) -- accept ratio 98.80%
+
+chain 1: 16.60%, misfit(total, data, alpha, model)=(0.0098122,0.0068333,1.00,0.0029790) -- accept ratio 98.81%
+
+chain 0: 19.20%, misfit(total, data, alpha, model)=(0.0096657,0.0068905,1.00,0.0027752) -- accept ratio 100.00%
+
+chain 0: 19.40%, misfit(total, data, alpha, model)=(0.0096653,0.0068905,1.00,0.0027748) -- accept ratio 100.00%
+
+chain 1: 16.80%, misfit(total, data, alpha, model)=(0.0097922,0.0068306,1.00,0.0029616) -- accept ratio 98.82%
+
+chain 0: 19.60%, misfit(total, data, alpha, model)=(0.0096574,0.0068862,1.00,0.0027712) -- accept ratio 100.00%
+
+chain 1: 17.00%, misfit(total, data, alpha, model)=(0.0097740,0.0068222,1.00,0.0029517) -- accept ratio 98.84%
+
+chain 0: 19.80%, misfit(total, data, alpha, model)=(0.0096526,0.0068836,1.00,0.0027690) -- accept ratio 100.00%
+
+chain 1: 17.20%, misfit(total, data, alpha, model)=(0.0097481,0.0068121,1.00,0.0029360) -- accept ratio 98.85%
+
+chain 0: 20.00%, misfit(total, data, alpha, model)=(0.0096487,0.0068815,1.00,0.0027672) -- accept ratio 100.00%
+
+chain 1: 17.40%, misfit(total, data, alpha, model)=(0.0097042,0.0068105,1.00,0.0028937) -- accept ratio 98.86%
+
+chain 0: 20.20%, misfit(total, data, alpha, model)=(0.0096385,0.0068743,1.00,0.0027642) -- accept ratio 100.00%
+
+chain 1: 17.60%, misfit(total, data, alpha, model)=(0.0096914,0.0068095,1.00,0.0028819) -- accept ratio 98.88%
+
+chain 0: 20.40%, misfit(total, data, alpha, model)=(0.0096189,0.0068636,1.00,0.0027553) -- accept ratio 100.00%
+
+chain 1: 17.80%, misfit(total, data, alpha, model)=(0.0096737,0.0067964,1.00,0.0028773) -- accept ratio 98.89%
+
+chain 0: 20.60%, misfit(total, data, alpha, model)=(0.0096141,0.0068625,1.00,0.0027516) -- accept ratio 100.00%
+
+chain 1: 18.00%, misfit(total, data, alpha, model)=(0.0096597,0.0067920,1.00,0.0028677) -- accept ratio 98.90%
+
+chain 0: 20.80%, misfit(total, data, alpha, model)=(0.0095922,0.0068533,1.00,0.0027389) -- accept ratio 100.00%
+
+chain 1: 18.20%, misfit(total, data, alpha, model)=(0.0096380,0.0067914,1.00,0.0028466) -- accept ratio 98.91%
+
+chain 0: 21.00%, misfit(total, data, alpha, model)=(0.0095845,0.0068478,1.00,0.0027367) -- accept ratio 100.00%
+
+chain 1: 18.40%, misfit(total, data, alpha, model)=(0.0096149,0.0067822,1.00,0.0028327) -- accept ratio 98.92%
+
+chain 0: 21.20%, misfit(total, data, alpha, model)=(0.0095691,0.0068458,1.00,0.0027234) -- accept ratio 100.00%
+
+chain 0: 21.40%, misfit(total, data, alpha, model)=(0.0095590,0.0068429,1.00,0.0027161) -- accept ratio 100.00%
+
+chain 1: 18.60%, misfit(total, data, alpha, model)=(0.0096040,0.0067808,1.00,0.0028232) -- accept ratio 98.94%
+
+chain 1: 18.80%, misfit(total, data, alpha, model)=(0.0095888,0.0067820,1.00,0.0028068) -- accept ratio 98.95%
+
+chain 0: 21.60%, misfit(total, data, alpha, model)=(0.0095537,0.0068415,1.00,0.0027121) -- accept ratio 100.00%
+
+chain 0: 21.80%, misfit(total, data, alpha, model)=(0.0095525,0.0068413,1.00,0.0027112) -- accept ratio 100.00%
+
+chain 1: 19.00%, misfit(total, data, alpha, model)=(0.0095760,0.0067779,1.00,0.0027981) -- accept ratio 98.96%
+
+chain 0: 22.00%, misfit(total, data, alpha, model)=(0.0095480,0.0068396,1.00,0.0027083) -- accept ratio 100.00%
+
+chain 0: 22.20%, misfit(total, data, alpha, model)=(0.0095476,0.0068405,1.00,0.0027070) -- accept ratio 100.00%
+
+chain 1: 19.20%, misfit(total, data, alpha, model)=(0.0095624,0.0067781,1.00,0.0027843) -- accept ratio 98.97%
+
+chain 0: 22.40%, misfit(total, data, alpha, model)=(0.0095421,0.0068413,1.00,0.0027008) -- accept ratio 100.00%
+
+chain 1: 19.40%, misfit(total, data, alpha, model)=(0.0095599,0.0067785,1.00,0.0027814) -- accept ratio 98.98%
+
+chain 0: 22.60%, misfit(total, data, alpha, model)=(0.0095154,0.0068475,1.00,0.0026679) -- accept ratio 100.00%
+
+chain 1: 19.60%, misfit(total, data, alpha, model)=(0.0095451,0.0067786,1.00,0.0027666) -- accept ratio 98.99%
+
+chain 0: 22.80%, misfit(total, data, alpha, model)=(0.0095004,0.0068382,1.00,0.0026622) -- accept ratio 100.00%
+
+chain 1: 19.80%, misfit(total, data, alpha, model)=(0.0095435,0.0067791,1.00,0.0027645) -- accept ratio 99.00%
+
+chain 1: 20.00%, misfit(total, data, alpha, model)=(0.0095388,0.0067792,1.00,0.0027595) -- accept ratio 99.01%
+
+chain 0: 23.00%, misfit(total, data, alpha, model)=(0.0094842,0.0068319,1.00,0.0026524) -- accept ratio 100.00%
+
+chain 0: 23.20%, misfit(total, data, alpha, model)=(0.0094766,0.0068296,1.00,0.0026471) -- accept ratio 100.00%
+
+chain 1: 20.20%, misfit(total, data, alpha, model)=(0.0095323,0.0067797,1.00,0.0027526) -- accept ratio 99.02%
+
+chain 0: 23.40%, misfit(total, data, alpha, model)=(0.0094714,0.0068288,1.00,0.0026426) -- accept ratio 100.00%
+
+chain 1: 20.40%, misfit(total, data, alpha, model)=(0.0095199,0.0067774,1.00,0.0027425) -- accept ratio 99.03%
+
+chain 0: 23.60%, misfit(total, data, alpha, model)=(0.0094339,0.0068278,1.00,0.0026061) -- accept ratio 100.00%
+
+chain 0: 23.80%, misfit(total, data, alpha, model)=(0.0094310,0.0068264,1.00,0.0026046) -- accept ratio 100.00%
+
+chain 1: 20.60%, misfit(total, data, alpha, model)=(0.0095159,0.0067770,1.00,0.0027389) -- accept ratio 99.04%
+
+chain 1: 20.80%, misfit(total, data, alpha, model)=(0.0095082,0.0067760,1.00,0.0027322) -- accept ratio 99.05%
+
+chain 0: 24.00%, misfit(total, data, alpha, model)=(0.0094073,0.0068202,1.00,0.0025871) -- accept ratio 100.00%
+
+chain 0: 24.20%, misfit(total, data, alpha, model)=(0.0094017,0.0068209,1.00,0.0025808) -- accept ratio 100.00%
+
+chain 1: 21.00%, misfit(total, data, alpha, model)=(0.0094952,0.0067776,1.00,0.0027175) -- accept ratio 99.06%
+
+chain 1: 21.20%, misfit(total, data, alpha, model)=(0.0094797,0.0067791,1.00,0.0027006) -- accept ratio 99.07%
+
+chain 0: 24.40%, misfit(total, data, alpha, model)=(0.0093647,0.0068214,1.00,0.0025433) -- accept ratio 100.00%
+
+chain 1: 21.40%, misfit(total, data, alpha, model)=(0.0094730,0.0067800,1.00,0.0026931) -- accept ratio 99.07%
+
+chain 0: 24.60%, misfit(total, data, alpha, model)=(0.0093518,0.0068253,1.00,0.0025265) -- accept ratio 100.00%
+
+chain 1: 21.60%, misfit(total, data, alpha, model)=(0.0094405,0.0067770,1.00,0.0026635) -- accept ratio 99.08%
+
+chain 0: 24.80%, misfit(total, data, alpha, model)=(0.0093348,0.0068176,1.00,0.0025172) -- accept ratio 100.00%
+
+chain 0: 25.00%, misfit(total, data, alpha, model)=(0.0093143,0.0068205,1.00,0.0024938) -- accept ratio 100.00%
+
+chain 1: 21.80%, misfit(total, data, alpha, model)=(0.0094308,0.0067721,1.00,0.0026587) -- accept ratio 99.09%
+
+chain 1: 22.00%, misfit(total, data, alpha, model)=(0.0094244,0.0067744,1.00,0.0026500) -- accept ratio 99.10%
+
+chain 0: 25.20%, misfit(total, data, alpha, model)=(0.0092900,0.0068188,1.00,0.0024712) -- accept ratio 100.00%
+
+chain 0: 25.40%, misfit(total, data, alpha, model)=(0.0092835,0.0068223,1.00,0.0024611) -- accept ratio 100.00%
+
+chain 1: 22.20%, misfit(total, data, alpha, model)=(0.0094179,0.0067735,1.00,0.0026444) -- accept ratio 99.11%
+
+chain 1: 22.40%, misfit(total, data, alpha, model)=(0.0094177,0.0067742,1.00,0.0026435) -- accept ratio 99.12%
+
+chain 0: 25.60%, misfit(total, data, alpha, model)=(0.0092718,0.0068137,1.00,0.0024581) -- accept ratio 100.00%
+
+chain 1: 22.60%, misfit(total, data, alpha, model)=(0.0094171,0.0067745,1.00,0.0026426) -- accept ratio 99.12%
+
+chain 1: 22.80%, misfit(total, data, alpha, model)=(0.0094150,0.0067741,1.00,0.0026408) -- accept ratio 99.13%
+
+chain 0: 25.80%, misfit(total, data, alpha, model)=(0.0092707,0.0068140,1.00,0.0024567) -- accept ratio 100.00%
+
+chain 0: 26.00%, misfit(total, data, alpha, model)=(0.0092699,0.0068136,1.00,0.0024563) -- accept ratio 100.00%
+
+chain 0: 26.20%, misfit(total, data, alpha, model)=(0.0092687,0.0068132,1.00,0.0024556) -- accept ratio 100.00%
+
+chain 1: 23.00%, misfit(total, data, alpha, model)=(0.0094077,0.0067796,1.00,0.0026281) -- accept ratio 99.14%
+
+chain 0: 26.40%, misfit(total, data, alpha, model)=(0.0092669,0.0068127,1.00,0.0024542) -- accept ratio 100.00%
+
+chain 1: 23.20%, misfit(total, data, alpha, model)=(0.0094011,0.0067825,1.00,0.0026187) -- accept ratio 99.15%
+
+chain 1: 23.40%, misfit(total, data, alpha, model)=(0.0093966,0.0067846,1.00,0.0026120) -- accept ratio 99.15%
+
+chain 0: 26.60%, misfit(total, data, alpha, model)=(0.0092547,0.0068057,1.00,0.0024490) -- accept ratio 100.00%
+
+chain 1: 23.60%, misfit(total, data, alpha, model)=(0.0093494,0.0068073,1.00,0.0025421) -- accept ratio 99.16%
+
+chain 0: 26.80%, misfit(total, data, alpha, model)=(0.0092464,0.0068027,1.00,0.0024437) -- accept ratio 100.00%
+
+chain 1: 23.80%, misfit(total, data, alpha, model)=(0.0093036,0.0067996,1.00,0.0025040) -- accept ratio 99.17%
+
+chain 0: 27.00%, misfit(total, data, alpha, model)=(0.0092447,0.0068024,1.00,0.0024422) -- accept ratio 100.00%
+
+chain 1: 24.00%, misfit(total, data, alpha, model)=(0.0093023,0.0068031,1.00,0.0024992) -- accept ratio 99.17%
+
+chain 0: 27.20%, misfit(total, data, alpha, model)=(0.0092379,0.0068003,1.00,0.0024376) -- accept ratio 100.00%
+
+chain 1: 24.20%, misfit(total, data, alpha, model)=(0.0092908,0.0067927,1.00,0.0024982) -- accept ratio 99.18%
+
+chain 0: 27.40%, misfit(total, data, alpha, model)=(0.0092375,0.0068001,1.00,0.0024374) -- accept ratio 100.00%
+
+chain 0: 27.60%, misfit(total, data, alpha, model)=(0.0092378,0.0068008,1.00,0.0024370) -- accept ratio 100.00%
+
+chain 1: 24.40%, misfit(total, data, alpha, model)=(0.0092861,0.0067884,1.00,0.0024977) -- accept ratio 99.19%
+
+chain 0: 27.80%, misfit(total, data, alpha, model)=(0.0092355,0.0067995,1.00,0.0024360) -- accept ratio 100.00%
+
+chain 1: 24.60%, misfit(total, data, alpha, model)=(0.0092806,0.0067833,1.00,0.0024973) -- accept ratio 99.19%
+
+chain 1: 24.80%, misfit(total, data, alpha, model)=(0.0092802,0.0067831,1.00,0.0024971) -- accept ratio 99.20%
+
+chain 0: 28.00%, misfit(total, data, alpha, model)=(0.0092309,0.0067977,1.00,0.0024333) -- accept ratio 100.00%
+
+chain 1: 25.00%, misfit(total, data, alpha, model)=(0.0092796,0.0067826,1.00,0.0024970) -- accept ratio 99.21%
+
+chain 0: 28.20%, misfit(total, data, alpha, model)=(0.0092305,0.0067976,1.00,0.0024329) -- accept ratio 100.00%
+
+chain 0: 28.40%, misfit(total, data, alpha, model)=(0.0092301,0.0067975,1.00,0.0024326) -- accept ratio 100.00%
+
+chain 0: 28.60%, misfit(total, data, alpha, model)=(0.0092287,0.0067963,1.00,0.0024324) -- accept ratio 100.00%
+
+chain 1: 25.20%, misfit(total, data, alpha, model)=(0.0092727,0.0067772,1.00,0.0024955) -- accept ratio 99.21%
+
+chain 0: 28.80%, misfit(total, data, alpha, model)=(0.0092287,0.0067966,1.00,0.0024321) -- accept ratio 100.00%
+
+chain 0: 29.00%, misfit(total, data, alpha, model)=(0.0092244,0.0067948,1.00,0.0024296) -- accept ratio 100.00%
+
+chain 1: 25.40%, misfit(total, data, alpha, model)=(0.0092677,0.0067739,1.00,0.0024938) -- accept ratio 99.22%
+
+chain 0: 29.20%, misfit(total, data, alpha, model)=(0.0092204,0.0067941,1.00,0.0024263) -- accept ratio 100.00%
+
+chain 1: 25.60%, misfit(total, data, alpha, model)=(0.0092666,0.0067741,1.00,0.0024925) -- accept ratio 99.22%
+
+chain 0: 29.40%, misfit(total, data, alpha, model)=(0.0092189,0.0067942,1.00,0.0024248) -- accept ratio 100.00%
+
+chain 1: 25.80%, misfit(total, data, alpha, model)=(0.0092653,0.0067740,1.00,0.0024912) -- accept ratio 99.23%
+
+chain 0: 29.60%, misfit(total, data, alpha, model)=(0.0092064,0.0067913,1.00,0.0024151) -- accept ratio 100.00%
+
+chain 1: 26.00%, misfit(total, data, alpha, model)=(0.0092550,0.0067707,1.00,0.0024843) -- accept ratio 99.24%
+
+chain 0: 29.80%, misfit(total, data, alpha, model)=(0.0092028,0.0067904,1.00,0.0024123) -- accept ratio 100.00%
+
+chain 1: 26.20%, misfit(total, data, alpha, model)=(0.0092539,0.0067705,1.00,0.0024834) -- accept ratio 99.24%
+
+chain 1: 26.40%, misfit(total, data, alpha, model)=(0.0092533,0.0067704,1.00,0.0024830) -- accept ratio 99.25%
+
+chain 0: 30.00%, misfit(total, data, alpha, model)=(0.0091993,0.0067903,1.00,0.0024090) -- accept ratio 100.00%
+
+chain 1: 26.60%, misfit(total, data, alpha, model)=(0.0092507,0.0067699,1.00,0.0024808) -- accept ratio 99.25%
+
+chain 0: 30.20%, misfit(total, data, alpha, model)=(0.0091986,0.0067900,1.00,0.0024086) -- accept ratio 100.00%
+
+chain 1: 26.80%, misfit(total, data, alpha, model)=(0.0092495,0.0067693,1.00,0.0024802) -- accept ratio 99.26%
+
+chain 0: 30.40%, misfit(total, data, alpha, model)=(0.0091966,0.0067911,1.00,0.0024055) -- accept ratio 100.00%
+
+chain 1: 27.00%, misfit(total, data, alpha, model)=(0.0092416,0.0067675,1.00,0.0024741) -- accept ratio 99.26%
+
+chain 0: 30.60%, misfit(total, data, alpha, model)=(0.0091956,0.0067920,1.00,0.0024036) -- accept ratio 100.00%
+
+chain 0: 30.80%, misfit(total, data, alpha, model)=(0.0091956,0.0067930,1.00,0.0024026) -- accept ratio 100.00%
+
+chain 1: 27.20%, misfit(total, data, alpha, model)=(0.0092404,0.0067673,1.00,0.0024731) -- accept ratio 99.27%
+
+chain 0: 31.00%, misfit(total, data, alpha, model)=(0.0091918,0.0067946,1.00,0.0023972) -- accept ratio 100.00%
+
+chain 1: 27.40%, misfit(total, data, alpha, model)=(0.0092379,0.0067675,1.00,0.0024704) -- accept ratio 99.28%
+
+chain 0: 31.20%, misfit(total, data, alpha, model)=(0.0091869,0.0067990,1.00,0.0023879) -- accept ratio 100.00%
+
+chain 1: 27.60%, misfit(total, data, alpha, model)=(0.0092340,0.0067660,1.00,0.0024680) -- accept ratio 99.28%
+
+chain 0: 31.40%, misfit(total, data, alpha, model)=(0.0091780,0.0068047,1.00,0.0023733) -- accept ratio 100.00%
+
+chain 0: 31.60%, misfit(total, data, alpha, model)=(0.0091694,0.0068081,1.00,0.0023614) -- accept ratio 100.00%
+
+chain 1: 27.80%, misfit(total, data, alpha, model)=(0.0092298,0.0067657,1.00,0.0024641) -- accept ratio 99.29%
+
+chain 0: 31.80%, misfit(total, data, alpha, model)=(0.0091427,0.0068153,1.00,0.0023274) -- accept ratio 100.00%
+
+chain 1: 28.00%, misfit(total, data, alpha, model)=(0.0092266,0.0067639,1.00,0.0024627) -- accept ratio 99.29%
+
+chain 0: 31.80%, misfit(total, data, alpha, model)=(0.0091427,0.0068153,1.00,0.0023274) -- accept ratio 99.38%
+
+chain 1: 28.20%, misfit(total, data, alpha, model)=(0.0092242,0.0067631,1.00,0.0024611) -- accept ratio 99.30%
+
+chain 0: 32.00%, misfit(total, data, alpha, model)=(0.0091334,0.0068134,1.00,0.0023201) -- accept ratio 99.38%
+
+chain 1: 28.40%, misfit(total, data, alpha, model)=(0.0092219,0.0067630,1.00,0.0024589) -- accept ratio 99.30%
+
+chain 1: 28.60%, misfit(total, data, alpha, model)=(0.0092211,0.0067635,1.00,0.0024576) -- accept ratio 99.31%
+
+chain 0: 32.20%, misfit(total, data, alpha, model)=(0.0091087,0.0068152,1.00,0.0022935) -- accept ratio 99.38%
+
+chain 1: 28.80%, misfit(total, data, alpha, model)=(0.0092166,0.0067629,1.00,0.0024536) -- accept ratio 99.31%
+
+chain 0: 32.40%, misfit(total, data, alpha, model)=(0.0091011,0.0068145,1.00,0.0022867) -- accept ratio 99.39%
+
+chain 0: 32.60%, misfit(total, data, alpha, model)=(0.0090999,0.0068163,1.00,0.0022836) -- accept ratio 99.39%
+
+chain 1: 29.00%, misfit(total, data, alpha, model)=(0.0092128,0.0067642,1.00,0.0024486) -- accept ratio 99.32%
+
+chain 0: 32.80%, misfit(total, data, alpha, model)=(0.0090968,0.0068137,1.00,0.0022831) -- accept ratio 99.39%
+
+chain 1: 29.20%, misfit(total, data, alpha, model)=(0.0091930,0.0067682,1.00,0.0024249) -- accept ratio 99.32%
+
+chain 0: 33.00%, misfit(total, data, alpha, model)=(0.0090963,0.0068136,1.00,0.0022827) -- accept ratio 99.40%
+
+chain 1: 29.40%, misfit(total, data, alpha, model)=(0.0091887,0.0067666,1.00,0.0024221) -- accept ratio 99.32%
+
+chain 0: 33.20%, misfit(total, data, alpha, model)=(0.0090913,0.0068087,1.00,0.0022826) -- accept ratio 99.40%
+
+chain 1: 29.60%, misfit(total, data, alpha, model)=(0.0091830,0.0067632,1.00,0.0024198) -- accept ratio 99.33%
+
+chain 0: 33.40%, misfit(total, data, alpha, model)=(0.0090883,0.0068062,1.00,0.0022821) -- accept ratio 99.40%
+
+chain 1: 29.80%, misfit(total, data, alpha, model)=(0.0091821,0.0067649,1.00,0.0024172) -- accept ratio 99.33%
+
+chain 0: 33.60%, misfit(total, data, alpha, model)=(0.0090873,0.0068053,1.00,0.0022820) -- accept ratio 99.41%
+
+chain 1: 30.00%, misfit(total, data, alpha, model)=(0.0091779,0.0067624,1.00,0.0024155) -- accept ratio 99.34%
+
+chain 0: 33.80%, misfit(total, data, alpha, model)=(0.0090842,0.0068026,1.00,0.0022816) -- accept ratio 99.41%
+
+chain 1: 30.20%, misfit(total, data, alpha, model)=(0.0091757,0.0067618,1.00,0.0024139) -- accept ratio 99.34%
+
+chain 0: 34.00%, misfit(total, data, alpha, model)=(0.0090804,0.0068000,1.00,0.0022803) -- accept ratio 99.42%
+
+chain 1: 30.40%, misfit(total, data, alpha, model)=(0.0091708,0.0067609,1.00,0.0024099) -- accept ratio 99.35%
+
+chain 0: 34.20%, misfit(total, data, alpha, model)=(0.0090764,0.0067974,1.00,0.0022790) -- accept ratio 99.42%
+
+chain 1: 30.60%, misfit(total, data, alpha, model)=(0.0091641,0.0067612,1.00,0.0024030) -- accept ratio 99.35%
+
+chain 0: 34.40%, misfit(total, data, alpha, model)=(0.0090754,0.0067976,1.00,0.0022778) -- accept ratio 99.42%
+
+chain 1: 30.80%, misfit(total, data, alpha, model)=(0.0091482,0.0067627,1.00,0.0023855) -- accept ratio 99.35%
+
+chain 0: 34.60%, misfit(total, data, alpha, model)=(0.0090743,0.0067967,1.00,0.0022777) -- accept ratio 99.43%
+
+chain 0: 34.80%, misfit(total, data, alpha, model)=(0.0090734,0.0067958,1.00,0.0022775) -- accept ratio 99.43%
+
+chain 1: 31.00%, misfit(total, data, alpha, model)=(0.0091396,0.0067615,1.00,0.0023781) -- accept ratio 99.36%
+
+chain 0: 35.00%, misfit(total, data, alpha, model)=(0.0090732,0.0067958,1.00,0.0022774) -- accept ratio 99.43%
+
+chain 1: 31.20%, misfit(total, data, alpha, model)=(0.0091344,0.0067639,1.00,0.0023704) -- accept ratio 99.36%
+
+chain 0: 35.20%, misfit(total, data, alpha, model)=(0.0090707,0.0067936,1.00,0.0022771) -- accept ratio 99.44%
+
+chain 1: 31.40%, misfit(total, data, alpha, model)=(0.0091207,0.0067626,1.00,0.0023581) -- accept ratio 99.37%
+
+chain 1: 31.60%, misfit(total, data, alpha, model)=(0.0091150,0.0067637,1.00,0.0023513) -- accept ratio 99.37%
+
+chain 1: 31.80%, misfit(total, data, alpha, model)=(0.0091121,0.0067651,1.00,0.0023470) -- accept ratio 99.38%
+
+chain 0: 35.40%, misfit(total, data, alpha, model)=(0.0090676,0.0067909,1.00,0.0022767) -- accept ratio 99.44%
+
+chain 1: 32.00%, misfit(total, data, alpha, model)=(0.0091096,0.0067631,1.00,0.0023465) -- accept ratio 99.38%
+
+chain 0: 35.60%, misfit(total, data, alpha, model)=(0.0090678,0.0067914,1.00,0.0022764) -- accept ratio 99.44%
+
+chain 1: 32.20%, misfit(total, data, alpha, model)=(0.0091087,0.0067631,1.00,0.0023455) -- accept ratio 99.38%
+
+chain 0: 35.80%, misfit(total, data, alpha, model)=(0.0090664,0.0067901,1.00,0.0022762) -- accept ratio 99.44%
+
+chain 1: 32.40%, misfit(total, data, alpha, model)=(0.0091086,0.0067635,1.00,0.0023451) -- accept ratio 99.39%
+
+chain 1: 32.60%, misfit(total, data, alpha, model)=(0.0091083,0.0067633,1.00,0.0023450) -- accept ratio 99.39%
+
+chain 0: 36.00%, misfit(total, data, alpha, model)=(0.0090662,0.0067904,1.00,0.0022758) -- accept ratio 99.45%
+
+chain 0: 36.20%, misfit(total, data, alpha, model)=(0.0090660,0.0067902,1.00,0.0022758) -- accept ratio 99.45%
+
+chain 1: 32.80%, misfit(total, data, alpha, model)=(0.0091045,0.0067598,1.00,0.0023446) -- accept ratio 99.39%
+
+chain 0: 36.40%, misfit(total, data, alpha, model)=(0.0090651,0.0067893,1.00,0.0022757) -- accept ratio 99.45%
+
+chain 1: 33.00%, misfit(total, data, alpha, model)=(0.0091029,0.0067588,1.00,0.0023441) -- accept ratio 99.40%
+
+chain 0: 36.60%, misfit(total, data, alpha, model)=(0.0090624,0.0067873,1.00,0.0022751) -- accept ratio 99.46%
+
+chain 0: 36.80%, misfit(total, data, alpha, model)=(0.0090630,0.0067880,1.00,0.0022750) -- accept ratio 99.46%
+
+chain 1: 33.20%, misfit(total, data, alpha, model)=(0.0091008,0.0067570,1.00,0.0023438) -- accept ratio 99.40%
+
+chain 1: 33.40%, misfit(total, data, alpha, model)=(0.0091007,0.0067569,1.00,0.0023438) -- accept ratio 99.40%
+
+chain 0: 37.00%, misfit(total, data, alpha, model)=(0.0090611,0.0067866,1.00,0.0022745) -- accept ratio 99.46%
+
+chain 1: 33.60%, misfit(total, data, alpha, model)=(0.0091002,0.0067568,1.00,0.0023434) -- accept ratio 99.41%
+
+chain 1: 33.80%, misfit(total, data, alpha, model)=(0.0091006,0.0067574,1.00,0.0023432) -- accept ratio 99.41%
+
+chain 0: 37.20%, misfit(total, data, alpha, model)=(0.0090581,0.0067848,1.00,0.0022733) -- accept ratio 99.47%
+
+chain 1: 34.00%, misfit(total, data, alpha, model)=(0.0090991,0.0067560,1.00,0.0023430) -- accept ratio 99.42%
+
+chain 0: 37.40%, misfit(total, data, alpha, model)=(0.0090581,0.0067851,1.00,0.0022730) -- accept ratio 99.47%
+
+chain 0: 37.60%, misfit(total, data, alpha, model)=(0.0090581,0.0067852,1.00,0.0022729) -- accept ratio 99.47%
+
+chain 1: 34.20%, misfit(total, data, alpha, model)=(0.0090965,0.0067549,1.00,0.0023415) -- accept ratio 99.42%
+
+chain 0: 37.80%, misfit(total, data, alpha, model)=(0.0090563,0.0067843,1.00,0.0022720) -- accept ratio 99.47%
+
+chain 1: 34.40%, misfit(total, data, alpha, model)=(0.0090940,0.0067542,1.00,0.0023398) -- accept ratio 99.42%
+
+chain 0: 38.00%, misfit(total, data, alpha, model)=(0.0090534,0.0067836,1.00,0.0022698) -- accept ratio 99.48%
+
+chain 1: 34.60%, misfit(total, data, alpha, model)=(0.0090908,0.0067536,1.00,0.0023372) -- accept ratio 99.43%
+
+chain 0: 38.20%, misfit(total, data, alpha, model)=(0.0090508,0.0067826,1.00,0.0022682) -- accept ratio 99.48%
+
+chain 0: 38.40%, misfit(total, data, alpha, model)=(0.0090512,0.0067832,1.00,0.0022680) -- accept ratio 99.48%
+
+chain 1: 34.80%, misfit(total, data, alpha, model)=(0.0090892,0.0067539,1.00,0.0023353) -- accept ratio 99.43%
+
+chain 0: 38.60%, misfit(total, data, alpha, model)=(0.0090502,0.0067826,1.00,0.0022676) -- accept ratio 99.48%
+
+chain 1: 35.00%, misfit(total, data, alpha, model)=(0.0090880,0.0067534,1.00,0.0023346) -- accept ratio 99.43%
+
+chain 0: 38.80%, misfit(total, data, alpha, model)=(0.0090507,0.0067837,1.00,0.0022670) -- accept ratio 99.49%
+
+chain 1: 35.20%, misfit(total, data, alpha, model)=(0.0090874,0.0067531,1.00,0.0023342) -- accept ratio 99.44%
+
+chain 0: 39.00%, misfit(total, data, alpha, model)=(0.0090498,0.0067832,1.00,0.0022665) -- accept ratio 99.49%
+
+chain 1: 35.40%, misfit(total, data, alpha, model)=(0.0090847,0.0067540,1.00,0.0023307) -- accept ratio 99.44%
+
+chain 0: 39.20%, misfit(total, data, alpha, model)=(0.0090448,0.0067814,1.00,0.0022634) -- accept ratio 99.49%
+
+chain 1: 35.60%, misfit(total, data, alpha, model)=(0.0090724,0.0067533,1.00,0.0023191) -- accept ratio 99.44%
+
+chain 0: 39.40%, misfit(total, data, alpha, model)=(0.0090404,0.0067817,1.00,0.0022586) -- accept ratio 99.49%
+
+chain 1: 35.80%, misfit(total, data, alpha, model)=(0.0090681,0.0067545,1.00,0.0023136) -- accept ratio 99.44%
+
+chain 0: 39.60%, misfit(total, data, alpha, model)=(0.0090385,0.0067821,1.00,0.0022565) -- accept ratio 99.50%
+
+chain 1: 36.00%, misfit(total, data, alpha, model)=(0.0090666,0.0067531,1.00,0.0023135) -- accept ratio 99.45%
+
+chain 1: 36.20%, misfit(total, data, alpha, model)=(0.0090669,0.0067536,1.00,0.0023133) -- accept ratio 99.45%
+
+chain 0: 39.80%, misfit(total, data, alpha, model)=(0.0090351,0.0067803,1.00,0.0022548) -- accept ratio 99.50%
+
+chain 1: 36.40%, misfit(total, data, alpha, model)=(0.0090659,0.0067527,1.00,0.0023132) -- accept ratio 99.45%
+
+chain 0: 40.00%, misfit(total, data, alpha, model)=(0.0090350,0.0067807,1.00,0.0022543) -- accept ratio 99.50%
+
+chain 1: 36.60%, misfit(total, data, alpha, model)=(0.0090634,0.0067505,1.00,0.0023129) -- accept ratio 99.46%
+
+chain 1: 36.80%, misfit(total, data, alpha, model)=(0.0090634,0.0067505,1.00,0.0023128) -- accept ratio 99.46%
+
+chain 0: 40.20%, misfit(total, data, alpha, model)=(0.0090320,0.0067780,1.00,0.0022540) -- accept ratio 99.50%
+
+chain 1: 37.00%, misfit(total, data, alpha, model)=(0.0090625,0.0067503,1.00,0.0023122) -- accept ratio 99.46%
+
+chain 0: 40.40%, misfit(total, data, alpha, model)=(0.0090317,0.0067782,1.00,0.0022535) -- accept ratio 99.51%
+
+chain 1: 37.20%, misfit(total, data, alpha, model)=(0.0090615,0.0067498,1.00,0.0023117) -- accept ratio 99.47%
+
+chain 1: 37.40%, misfit(total, data, alpha, model)=(0.0090620,0.0067505,1.00,0.0023115) -- accept ratio 99.47%
+
+chain 0: 40.60%, misfit(total, data, alpha, model)=(0.0090293,0.0067760,1.00,0.0022533) -- accept ratio 99.51%
+
+chain 0: 40.80%, misfit(total, data, alpha, model)=(0.0090297,0.0067766,1.00,0.0022531) -- accept ratio 99.51%
+
+chain 1: 37.60%, misfit(total, data, alpha, model)=(0.0090604,0.0067493,1.00,0.0023111) -- accept ratio 99.47%
+
+chain 1: 37.80%, misfit(total, data, alpha, model)=(0.0090586,0.0067491,1.00,0.0023094) -- accept ratio 99.47%
+
+chain 0: 41.00%, misfit(total, data, alpha, model)=(0.0090276,0.0067751,1.00,0.0022524) -- accept ratio 99.51%
+
+chain 1: 38.00%, misfit(total, data, alpha, model)=(0.0090583,0.0067490,1.00,0.0023093) -- accept ratio 99.48%
+
+chain 0: 41.20%, misfit(total, data, alpha, model)=(0.0090274,0.0067750,1.00,0.0022524) -- accept ratio 99.52%
+
+chain 0: 41.40%, misfit(total, data, alpha, model)=(0.0090272,0.0067749,1.00,0.0022523) -- accept ratio 99.52%
+
+chain 1: 38.20%, misfit(total, data, alpha, model)=(0.0090567,0.0067484,1.00,0.0023082) -- accept ratio 99.48%
+
+chain 0: 41.60%, misfit(total, data, alpha, model)=(0.0090264,0.0067745,1.00,0.0022519) -- accept ratio 99.52%
+
+chain 1: 38.40%, misfit(total, data, alpha, model)=(0.0090552,0.0067480,1.00,0.0023071) -- accept ratio 99.48%
+
+chain 1: 38.60%, misfit(total, data, alpha, model)=(0.0090548,0.0067481,1.00,0.0023067) -- accept ratio 99.48%
+
+chain 0: 41.80%, misfit(total, data, alpha, model)=(0.0090257,0.0067744,1.00,0.0022513) -- accept ratio 99.52%
+
+chain 1: 38.80%, misfit(total, data, alpha, model)=(0.0090550,0.0067484,1.00,0.0023065) -- accept ratio 99.49%
+
+chain 0: 42.00%, misfit(total, data, alpha, model)=(0.0090250,0.0067739,1.00,0.0022511) -- accept ratio 99.53%
+
+chain 1: 39.00%, misfit(total, data, alpha, model)=(0.0090530,0.0067469,1.00,0.0023061) -- accept ratio 99.49%
+
+chain 0: 42.20%, misfit(total, data, alpha, model)=(0.0090247,0.0067739,1.00,0.0022508) -- accept ratio 99.53%
+
+chain 0: 42.40%, misfit(total, data, alpha, model)=(0.0090243,0.0067740,1.00,0.0022503) -- accept ratio 99.53%
+
+chain 1: 39.20%, misfit(total, data, alpha, model)=(0.0090520,0.0067472,1.00,0.0023049) -- accept ratio 99.49%
+
+chain 1: 39.40%, misfit(total, data, alpha, model)=(0.0090519,0.0067472,1.00,0.0023047) -- accept ratio 99.49%
+
+chain 0: 42.60%, misfit(total, data, alpha, model)=(0.0090236,0.0067736,1.00,0.0022499) -- accept ratio 99.53%
+
+chain 1: 39.60%, misfit(total, data, alpha, model)=(0.0090513,0.0067471,1.00,0.0023043) -- accept ratio 99.50%
+
+chain 0: 42.80%, misfit(total, data, alpha, model)=(0.0090236,0.0067740,1.00,0.0022496) -- accept ratio 99.53%
+
+chain 1: 39.80%, misfit(total, data, alpha, model)=(0.0090513,0.0067472,1.00,0.0023042) -- accept ratio 99.50%
+
+chain 0: 43.00%, misfit(total, data, alpha, model)=(0.0090229,0.0067736,1.00,0.0022493) -- accept ratio 99.54%
+
+chain 1: 40.00%, misfit(total, data, alpha, model)=(0.0090512,0.0067473,1.00,0.0023039) -- accept ratio 99.50%
+
+chain 0: 43.20%, misfit(total, data, alpha, model)=(0.0090225,0.0067734,1.00,0.0022491) -- accept ratio 99.54%
+
+chain 1: 40.20%, misfit(total, data, alpha, model)=(0.0090496,0.0067464,1.00,0.0023032) -- accept ratio 99.50%
+
+chain 0: 43.40%, misfit(total, data, alpha, model)=(0.0090207,0.0067732,1.00,0.0022476) -- accept ratio 99.54%
+
+chain 1: 40.40%, misfit(total, data, alpha, model)=(0.0090469,0.0067464,1.00,0.0023005) -- accept ratio 99.51%
+
+chain 0: 43.60%, misfit(total, data, alpha, model)=(0.0090203,0.0067737,1.00,0.0022466) -- accept ratio 99.54%
+
+chain 1: 40.60%, misfit(total, data, alpha, model)=(0.0090461,0.0067460,1.00,0.0023001) -- accept ratio 99.51%
+
+chain 0: 43.80%, misfit(total, data, alpha, model)=(0.0090196,0.0067737,1.00,0.0022459) -- accept ratio 99.55%
+
+chain 1: 40.80%, misfit(total, data, alpha, model)=(0.0090456,0.0067463,1.00,0.0022993) -- accept ratio 99.51%
+
+chain 0: 44.00%, misfit(total, data, alpha, model)=(0.0090189,0.0067733,1.00,0.0022456) -- accept ratio 99.55%
+
+chain 0: 44.20%, misfit(total, data, alpha, model)=(0.0090188,0.0067744,1.00,0.0022444) -- accept ratio 99.55%
+
+chain 1: 41.00%, misfit(total, data, alpha, model)=(0.0090430,0.0067461,1.00,0.0022969) -- accept ratio 99.51%
+
+chain 0: 44.40%, misfit(total, data, alpha, model)=(0.0090133,0.0067743,1.00,0.0022391) -- accept ratio 99.55%
+
+chain 1: 41.20%, misfit(total, data, alpha, model)=(0.0090395,0.0067463,1.00,0.0022931) -- accept ratio 99.52%
+
+chain 0: 44.60%, misfit(total, data, alpha, model)=(0.0090128,0.0067753,1.00,0.0022375) -- accept ratio 99.55%
+
+chain 1: 41.40%, misfit(total, data, alpha, model)=(0.0090388,0.0067470,1.00,0.0022918) -- accept ratio 99.52%
+
+chain 0: 44.80%, misfit(total, data, alpha, model)=(0.0089990,0.0067805,1.00,0.0022184) -- accept ratio 99.56%
+
+chain 1: 41.60%, misfit(total, data, alpha, model)=(0.0090357,0.0067472,1.00,0.0022885) -- accept ratio 99.52%
+
+chain 0: 45.00%, misfit(total, data, alpha, model)=(0.0089863,0.0067814,1.00,0.0022049) -- accept ratio 99.56%
+
+chain 1: 41.80%, misfit(total, data, alpha, model)=(0.0090325,0.0067490,1.00,0.0022835) -- accept ratio 99.52%
+
+chain 1: 42.00%, misfit(total, data, alpha, model)=(0.0090313,0.0067481,1.00,0.0022832) -- accept ratio 99.53%
+
+chain 0: 45.20%, misfit(total, data, alpha, model)=(0.0089816,0.0067788,1.00,0.0022028) -- accept ratio 99.56%
+
+chain 1: 42.20%, misfit(total, data, alpha, model)=(0.0090294,0.0067476,1.00,0.0022818) -- accept ratio 99.53%
+
+chain 0: 45.40%, misfit(total, data, alpha, model)=(0.0089762,0.0067769,1.00,0.0021992) -- accept ratio 99.56%
+
+chain 1: 42.40%, misfit(total, data, alpha, model)=(0.0090296,0.0067480,1.00,0.0022816) -- accept ratio 99.53%
+
+chain 0: 45.60%, misfit(total, data, alpha, model)=(0.0089645,0.0067755,1.00,0.0021891) -- accept ratio 99.56%
+
+chain 0: 45.80%, misfit(total, data, alpha, model)=(0.0089636,0.0067767,1.00,0.0021869) -- accept ratio 99.57%
+
+chain 1: 42.60%, misfit(total, data, alpha, model)=(0.0090249,0.0067477,1.00,0.0022772) -- accept ratio 99.53%
+
+chain 0: 46.00%, misfit(total, data, alpha, model)=(0.0089630,0.0067764,1.00,0.0021866) -- accept ratio 99.57%
+
+chain 1: 42.80%, misfit(total, data, alpha, model)=(0.0090201,0.0067492,1.00,0.0022709) -- accept ratio 99.53%
+
+chain 0: 46.20%, misfit(total, data, alpha, model)=(0.0089589,0.0067743,1.00,0.0021846) -- accept ratio 99.57%
+
+chain 1: 43.00%, misfit(total, data, alpha, model)=(0.0090037,0.0067495,1.00,0.0022542) -- accept ratio 99.54%
+
+chain 0: 46.40%, misfit(total, data, alpha, model)=(0.0089570,0.0067732,1.00,0.0021838) -- accept ratio 99.57%
+
+chain 1: 43.20%, misfit(total, data, alpha, model)=(0.0089990,0.0067496,1.00,0.0022494) -- accept ratio 99.54%
+
+chain 0: 46.60%, misfit(total, data, alpha, model)=(0.0089535,0.0067732,1.00,0.0021803) -- accept ratio 99.57%
+
+chain 1: 43.40%, misfit(total, data, alpha, model)=(0.0089945,0.0067477,1.00,0.0022468) -- accept ratio 99.54%
+
+chain 0: 46.80%, misfit(total, data, alpha, model)=(0.0089499,0.0067727,1.00,0.0021772) -- accept ratio 99.57%
+
+chain 0: 47.00%, misfit(total, data, alpha, model)=(0.0089501,0.0067731,1.00,0.0021770) -- accept ratio 99.58%
+
+chain 0: 47.20%, misfit(total, data, alpha, model)=(0.0089501,0.0067735,1.00,0.0021766) -- accept ratio 99.58%
+
+chain 1: 43.60%, misfit(total, data, alpha, model)=(0.0089890,0.0067461,1.00,0.0022430) -- accept ratio 99.54%
+
+chain 1: 43.80%, misfit(total, data, alpha, model)=(0.0089809,0.0067492,1.00,0.0022317) -- accept ratio 99.55%
+
+chain 0: 47.40%, misfit(total, data, alpha, model)=(0.0089475,0.0067725,1.00,0.0021750) -- accept ratio 99.58%
+
+chain 1: 44.00%, misfit(total, data, alpha, model)=(0.0089802,0.0067493,1.00,0.0022309) -- accept ratio 99.55%
+
+chain 0: 47.60%, misfit(total, data, alpha, model)=(0.0089455,0.0067723,1.00,0.0021732) -- accept ratio 99.58%
+
+chain 1: 44.20%, misfit(total, data, alpha, model)=(0.0089741,0.0067492,1.00,0.0022249) -- accept ratio 99.55%
+
+chain 0: 47.80%, misfit(total, data, alpha, model)=(0.0089451,0.0067724,1.00,0.0021727) -- accept ratio 99.58%
+
+chain 1: 44.40%, misfit(total, data, alpha, model)=(0.0089735,0.0067490,1.00,0.0022245) -- accept ratio 99.55%
+
+chain 0: 48.00%, misfit(total, data, alpha, model)=(0.0089400,0.0067727,1.00,0.0021673) -- accept ratio 99.59%
+
+chain 1: 44.60%, misfit(total, data, alpha, model)=(0.0089719,0.0067477,1.00,0.0022242) -- accept ratio 99.55%
+
+chain 1: 44.80%, misfit(total, data, alpha, model)=(0.0089715,0.0067475,1.00,0.0022240) -- accept ratio 99.56%
+
+chain 0: 48.20%, misfit(total, data, alpha, model)=(0.0089256,0.0067734,1.00,0.0021522) -- accept ratio 99.59%
+
+chain 1: 45.00%, misfit(total, data, alpha, model)=(0.0089692,0.0067457,1.00,0.0022236) -- accept ratio 99.56%
+
+chain 0: 48.40%, misfit(total, data, alpha, model)=(0.0089239,0.0067730,1.00,0.0021509) -- accept ratio 99.59%
+
+chain 1: 45.20%, misfit(total, data, alpha, model)=(0.0089685,0.0067453,1.00,0.0022232) -- accept ratio 99.56%
+
+chain 0: 48.60%, misfit(total, data, alpha, model)=(0.0089229,0.0067729,1.00,0.0021500) -- accept ratio 99.59%
+
+chain 1: 45.40%, misfit(total, data, alpha, model)=(0.0089684,0.0067454,1.00,0.0022230) -- accept ratio 99.56%
+
+chain 0: 48.80%, misfit(total, data, alpha, model)=(0.0089214,0.0067726,1.00,0.0021489) -- accept ratio 99.59%
+
+chain 1: 45.60%, misfit(total, data, alpha, model)=(0.0089658,0.0067437,1.00,0.0022221) -- accept ratio 99.56%
+
+chain 0: 49.00%, misfit(total, data, alpha, model)=(0.0089131,0.0067721,1.00,0.0021411) -- accept ratio 99.59%
+
+chain 1: 45.80%, misfit(total, data, alpha, model)=(0.0089646,0.0067434,1.00,0.0022212) -- accept ratio 99.57%
+
+chain 0: 49.20%, misfit(total, data, alpha, model)=(0.0089014,0.0067727,1.00,0.0021287) -- accept ratio 99.60%
+
+chain 1: 46.00%, misfit(total, data, alpha, model)=(0.0089591,0.0067426,1.00,0.0022164) -- accept ratio 99.57%
+
+chain 0: 49.40%, misfit(total, data, alpha, model)=(0.0088956,0.0067702,1.00,0.0021254) -- accept ratio 99.60%
+
+chain 1: 46.20%, misfit(total, data, alpha, model)=(0.0089506,0.0067421,1.00,0.0022085) -- accept ratio 99.57%
+
+chain 0: 49.60%, misfit(total, data, alpha, model)=(0.0088899,0.0067713,1.00,0.0021185) -- accept ratio 99.60%
+
+chain 1: 46.40%, misfit(total, data, alpha, model)=(0.0089502,0.0067417,1.00,0.0022084) -- accept ratio 99.57%
+
+chain 0: 49.80%, misfit(total, data, alpha, model)=(0.0088822,0.0067707,1.00,0.0021115) -- accept ratio 99.60%
+
+chain 1: 46.60%, misfit(total, data, alpha, model)=(0.0089487,0.0067409,1.00,0.0022078) -- accept ratio 99.57%
+
+chain 0: 50.00%, misfit(total, data, alpha, model)=(0.0088758,0.0067707,1.00,0.0021051) -- accept ratio 99.60%
+
+chain 1: 46.80%, misfit(total, data, alpha, model)=(0.0089491,0.0067415,1.00,0.0022076) -- accept ratio 99.57%
+
+chain 0: 50.20%, misfit(total, data, alpha, model)=(0.0088744,0.0067698,1.00,0.0021046) -- accept ratio 99.60%
+
+chain 1: 47.00%, misfit(total, data, alpha, model)=(0.0089476,0.0067402,1.00,0.0022074) -- accept ratio 99.58%
+
+chain 0: 50.40%, misfit(total, data, alpha, model)=(0.0088736,0.0067693,1.00,0.0021043) -- accept ratio 99.60%
+
+chain 1: 47.20%, misfit(total, data, alpha, model)=(0.0089469,0.0067405,1.00,0.0022065) -- accept ratio 99.58%
+
+chain 0: 50.60%, misfit(total, data, alpha, model)=(0.0088732,0.0067689,1.00,0.0021043) -- accept ratio 99.61%
+
+chain 0: 50.80%, misfit(total, data, alpha, model)=(0.0088737,0.0067695,1.00,0.0021042) -- accept ratio 99.61%
+
+chain 1: 47.40%, misfit(total, data, alpha, model)=(0.0089444,0.0067395,1.00,0.0022049) -- accept ratio 99.58%
+
+chain 0: 51.00%, misfit(total, data, alpha, model)=(0.0088719,0.0067681,1.00,0.0021037) -- accept ratio 99.61%
+
+chain 1: 47.60%, misfit(total, data, alpha, model)=(0.0089442,0.0067399,1.00,0.0022043) -- accept ratio 99.58%
+
+chain 0: 51.20%, misfit(total, data, alpha, model)=(0.0088724,0.0067689,1.00,0.0021035) -- accept ratio 99.61%
+
+chain 0: 51.40%, misfit(total, data, alpha, model)=(0.0088716,0.0067681,1.00,0.0021034) -- accept ratio 99.61%
+
+chain 1: 47.80%, misfit(total, data, alpha, model)=(0.0089431,0.0067403,1.00,0.0022027) -- accept ratio 99.58%
+
+chain 0: 51.60%, misfit(total, data, alpha, model)=(0.0088718,0.0067685,1.00,0.0021034) -- accept ratio 99.61%
+
+chain 1: 48.00%, misfit(total, data, alpha, model)=(0.0089428,0.0067404,1.00,0.0022024) -- accept ratio 99.59%
+
+chain 0: 51.80%, misfit(total, data, alpha, model)=(0.0088718,0.0067687,1.00,0.0021031) -- accept ratio 99.62%
+
+chain 0: 52.00%, misfit(total, data, alpha, model)=(0.0088713,0.0067683,1.00,0.0021030) -- accept ratio 99.62%
+
+chain 1: 48.20%, misfit(total, data, alpha, model)=(0.0089420,0.0067403,1.00,0.0022017) -- accept ratio 99.59%
+
+chain 0: 52.20%, misfit(total, data, alpha, model)=(0.0088709,0.0067680,1.00,0.0021030) -- accept ratio 99.62%
+
+chain 0: 52.40%, misfit(total, data, alpha, model)=(0.0088709,0.0067684,1.00,0.0021025) -- accept ratio 99.62%
+
+chain 1: 48.40%, misfit(total, data, alpha, model)=(0.0089405,0.0067400,1.00,0.0022005) -- accept ratio 99.59%
+
+chain 1: 48.60%, misfit(total, data, alpha, model)=(0.0089405,0.0067401,1.00,0.0022004) -- accept ratio 99.59%
+
+chain 0: 52.60%, misfit(total, data, alpha, model)=(0.0088692,0.0067680,1.00,0.0021012) -- accept ratio 99.62%
+
+chain 1: 48.80%, misfit(total, data, alpha, model)=(0.0089401,0.0067401,1.00,0.0022001) -- accept ratio 99.59%
+
+chain 0: 52.80%, misfit(total, data, alpha, model)=(0.0088691,0.0067680,1.00,0.0021011) -- accept ratio 99.62%
+
+chain 1: 49.00%, misfit(total, data, alpha, model)=(0.0089395,0.0067405,1.00,0.0021990) -- accept ratio 99.59%
+
+chain 0: 53.00%, misfit(total, data, alpha, model)=(0.0088683,0.0067679,1.00,0.0021003) -- accept ratio 99.62%
+
+chain 1: 49.20%, misfit(total, data, alpha, model)=(0.0089386,0.0067402,1.00,0.0021984) -- accept ratio 99.60%
+
+chain 0: 53.20%, misfit(total, data, alpha, model)=(0.0088684,0.0067683,1.00,0.0021001) -- accept ratio 99.63%
+
+chain 1: 49.40%, misfit(total, data, alpha, model)=(0.0089384,0.0067410,1.00,0.0021974) -- accept ratio 99.60%
+
+chain 0: 53.40%, misfit(total, data, alpha, model)=(0.0088667,0.0067671,1.00,0.0020996) -- accept ratio 99.63%
+
+chain 1: 49.60%, misfit(total, data, alpha, model)=(0.0089371,0.0067405,1.00,0.0021966) -- accept ratio 99.60%
+
+chain 0: 53.60%, misfit(total, data, alpha, model)=(0.0088664,0.0067668,1.00,0.0020996) -- accept ratio 99.63%
+
+chain 1: 49.80%, misfit(total, data, alpha, model)=(0.0089366,0.0067406,1.00,0.0021959) -- accept ratio 99.60%
+
+chain 0: 53.80%, misfit(total, data, alpha, model)=(0.0088663,0.0067667,1.00,0.0020995) -- accept ratio 99.63%
+
+chain 1: 50.00%, misfit(total, data, alpha, model)=(0.0089340,0.0067401,1.00,0.0021940) -- accept ratio 99.60%
+
+chain 0: 54.00%, misfit(total, data, alpha, model)=(0.0088664,0.0067670,1.00,0.0020994) -- accept ratio 99.63%
+
+chain 1: 50.20%, misfit(total, data, alpha, model)=(0.0089330,0.0067405,1.00,0.0021925) -- accept ratio 99.60%
+
+chain 0: 54.20%, misfit(total, data, alpha, model)=(0.0088659,0.0067665,1.00,0.0020994) -- accept ratio 99.63%
+
+chain 0: 54.40%, misfit(total, data, alpha, model)=(0.0088663,0.0067670,1.00,0.0020993) -- accept ratio 99.63%
+
+chain 1: 50.40%, misfit(total, data, alpha, model)=(0.0089325,0.0067401,1.00,0.0021923) -- accept ratio 99.60%
+
+chain 1: 50.60%, misfit(total, data, alpha, model)=(0.0089328,0.0067408,1.00,0.0021920) -- accept ratio 99.61%
+
+chain 0: 54.60%, misfit(total, data, alpha, model)=(0.0088660,0.0067668,1.00,0.0020992) -- accept ratio 99.64%
+
+chain 1: 50.80%, misfit(total, data, alpha, model)=(0.0089334,0.0067418,1.00,0.0021916) -- accept ratio 99.61%
+
+chain 0: 54.80%, misfit(total, data, alpha, model)=(0.0088652,0.0067661,1.00,0.0020991) -- accept ratio 99.64%
+
+chain 0: 55.00%, misfit(total, data, alpha, model)=(0.0088652,0.0067661,1.00,0.0020991) -- accept ratio 99.64%
+
+chain 1: 51.00%, misfit(total, data, alpha, model)=(0.0089321,0.0067411,1.00,0.0021910) -- accept ratio 99.61%
+
+chain 0: 55.20%, misfit(total, data, alpha, model)=(0.0088653,0.0067663,1.00,0.0020989) -- accept ratio 99.64%
+
+chain 1: 51.20%, misfit(total, data, alpha, model)=(0.0089323,0.0067420,1.00,0.0021903) -- accept ratio 99.61%
+
+chain 0: 55.40%, misfit(total, data, alpha, model)=(0.0088649,0.0067662,1.00,0.0020988) -- accept ratio 99.64%
+
+chain 1: 51.40%, misfit(total, data, alpha, model)=(0.0089317,0.0067416,1.00,0.0021901) -- accept ratio 99.61%
+
+chain 0: 55.60%, misfit(total, data, alpha, model)=(0.0088642,0.0067654,1.00,0.0020988) -- accept ratio 99.64%
+
+chain 1: 51.60%, misfit(total, data, alpha, model)=(0.0089318,0.0067417,1.00,0.0021900) -- accept ratio 99.61%
+
+chain 0: 55.80%, misfit(total, data, alpha, model)=(0.0088650,0.0067665,1.00,0.0020985) -- accept ratio 99.64%
+
+chain 1: 51.80%, misfit(total, data, alpha, model)=(0.0089325,0.0067444,1.00,0.0021881) -- accept ratio 99.62%
+
+chain 0: 56.00%, misfit(total, data, alpha, model)=(0.0088642,0.0067657,1.00,0.0020985) -- accept ratio 99.64%
+
+chain 1: 52.00%, misfit(total, data, alpha, model)=(0.0089325,0.0067451,1.00,0.0021874) -- accept ratio 99.62%
+
+chain 1: 52.20%, misfit(total, data, alpha, model)=(0.0089324,0.0067452,1.00,0.0021872) -- accept ratio 99.62%
+
+chain 0: 56.20%, misfit(total, data, alpha, model)=(0.0088640,0.0067658,1.00,0.0020982) -- accept ratio 99.65%
+
+chain 0: 56.40%, misfit(total, data, alpha, model)=(0.0088646,0.0067666,1.00,0.0020981) -- accept ratio 99.65%
+
+chain 1: 52.40%, misfit(total, data, alpha, model)=(0.0089313,0.0067453,1.00,0.0021860) -- accept ratio 99.62%
+
+chain 0: 56.60%, misfit(total, data, alpha, model)=(0.0088628,0.0067649,1.00,0.0020979) -- accept ratio 99.65%
+
+chain 1: 52.60%, misfit(total, data, alpha, model)=(0.0089285,0.0067509,1.00,0.0021776) -- accept ratio 99.62%
+
+chain 0: 56.80%, misfit(total, data, alpha, model)=(0.0088629,0.0067652,1.00,0.0020977) -- accept ratio 99.65%
+
+chain 1: 52.80%, misfit(total, data, alpha, model)=(0.0089209,0.0067565,1.00,0.0021645) -- accept ratio 99.62%
+
+chain 1: 53.00%, misfit(total, data, alpha, model)=(0.0089096,0.0067642,1.00,0.0021454) -- accept ratio 99.62%
+
+chain 0: 57.00%, misfit(total, data, alpha, model)=(0.0088628,0.0067656,1.00,0.0020971) -- accept ratio 99.65%
+
+chain 1: 53.20%, misfit(total, data, alpha, model)=(0.0089084,0.0067634,1.00,0.0021451) -- accept ratio 99.63%
+
+chain 0: 57.20%, misfit(total, data, alpha, model)=(0.0088626,0.0067658,1.00,0.0020968) -- accept ratio 99.65%
+
+chain 0: 57.40%, misfit(total, data, alpha, model)=(0.0088621,0.0067655,1.00,0.0020966) -- accept ratio 99.65%
+
+chain 1: 53.40%, misfit(total, data, alpha, model)=(0.0089051,0.0067614,1.00,0.0021437) -- accept ratio 99.63%
+
+chain 0: 57.60%, misfit(total, data, alpha, model)=(0.0088600,0.0067649,1.00,0.0020951) -- accept ratio 99.65%
+
+chain 1: 53.60%, misfit(total, data, alpha, model)=(0.0089041,0.0067610,1.00,0.0021431) -- accept ratio 99.63%
+
+chain 0: 57.80%, misfit(total, data, alpha, model)=(0.0088595,0.0067651,1.00,0.0020943) -- accept ratio 99.66%
+
+chain 1: 53.80%, misfit(total, data, alpha, model)=(0.0089026,0.0067596,1.00,0.0021429) -- accept ratio 99.63%
+
+chain 0: 58.00%, misfit(total, data, alpha, model)=(0.0088586,0.0067649,1.00,0.0020937) -- accept ratio 99.66%
+
+chain 1: 54.00%, misfit(total, data, alpha, model)=(0.0089011,0.0067582,1.00,0.0021428) -- accept ratio 99.63%
+
+chain 0: 58.20%, misfit(total, data, alpha, model)=(0.0088584,0.0067648,1.00,0.0020936) -- accept ratio 99.66%
+
+chain 1: 54.20%, misfit(total, data, alpha, model)=(0.0089005,0.0067577,1.00,0.0021428) -- accept ratio 99.63%
+
+chain 1: 54.40%, misfit(total, data, alpha, model)=(0.0089004,0.0067577,1.00,0.0021427) -- accept ratio 99.63%
+
+chain 0: 58.40%, misfit(total, data, alpha, model)=(0.0088584,0.0067650,1.00,0.0020934) -- accept ratio 99.66%
+
+chain 0: 58.60%, misfit(total, data, alpha, model)=(0.0088579,0.0067644,1.00,0.0020934) -- accept ratio 99.66%
+
+chain 1: 54.60%, misfit(total, data, alpha, model)=(0.0088986,0.0067561,1.00,0.0021425) -- accept ratio 99.64%
+
+chain 0: 58.80%, misfit(total, data, alpha, model)=(0.0088581,0.0067649,1.00,0.0020932) -- accept ratio 99.66%
+
+chain 1: 54.80%, misfit(total, data, alpha, model)=(0.0088983,0.0067559,1.00,0.0021424) -- accept ratio 99.64%
+
+chain 0: 59.00%, misfit(total, data, alpha, model)=(0.0088579,0.0067647,1.00,0.0020932) -- accept ratio 99.66%
+
+chain 0: 59.20%, misfit(total, data, alpha, model)=(0.0088576,0.0067643,1.00,0.0020933) -- accept ratio 99.66%
+
+chain 1: 55.00%, misfit(total, data, alpha, model)=(0.0088973,0.0067551,1.00,0.0021422) -- accept ratio 99.64%
+
+chain 0: 59.40%, misfit(total, data, alpha, model)=(0.0088584,0.0067653,1.00,0.0020932) -- accept ratio 99.66%
+
+chain 1: 55.20%, misfit(total, data, alpha, model)=(0.0088978,0.0067557,1.00,0.0021421) -- accept ratio 99.64%
+
+chain 0: 59.60%, misfit(total, data, alpha, model)=(0.0088570,0.0067639,1.00,0.0020931) -- accept ratio 99.67%
+
+chain 1: 55.40%, misfit(total, data, alpha, model)=(0.0088957,0.0067537,1.00,0.0021419) -- accept ratio 99.64%
+
+chain 0: 59.80%, misfit(total, data, alpha, model)=(0.0088578,0.0067647,1.00,0.0020931) -- accept ratio 99.67%
+
+chain 0: 60.00%, misfit(total, data, alpha, model)=(0.0088579,0.0067648,1.00,0.0020931) -- accept ratio 99.67%
+
+chain 1: 55.60%, misfit(total, data, alpha, model)=(0.0088959,0.0067541,1.00,0.0021418) -- accept ratio 99.64%
+
+chain 1: 55.80%, misfit(total, data, alpha, model)=(0.0088957,0.0067540,1.00,0.0021418) -- accept ratio 99.64%
+
+chain 0: 60.20%, misfit(total, data, alpha, model)=(0.0088570,0.0067641,1.00,0.0020930) -- accept ratio 99.67%
+
+chain 1: 56.00%, misfit(total, data, alpha, model)=(0.0088954,0.0067537,1.00,0.0021417) -- accept ratio 99.64%
+
+chain 0: 60.40%, misfit(total, data, alpha, model)=(0.0088566,0.0067637,1.00,0.0020930) -- accept ratio 99.67%
+
+chain 1: 56.20%, misfit(total, data, alpha, model)=(0.0088951,0.0067536,1.00,0.0021415) -- accept ratio 99.65%
+
+chain 1: 56.40%, misfit(total, data, alpha, model)=(0.0088951,0.0067536,1.00,0.0021415) -- accept ratio 99.65%
+
+chain 1: 56.60%, misfit(total, data, alpha, model)=(0.0088949,0.0067535,1.00,0.0021414) -- accept ratio 99.65%
+
+chain 0: 60.60%, misfit(total, data, alpha, model)=(0.0088573,0.0067645,1.00,0.0020927) -- accept ratio 99.67%
+
+chain 1: 56.80%, misfit(total, data, alpha, model)=(0.0088948,0.0067536,1.00,0.0021412) -- accept ratio 99.65%
+
+chain 0: 60.80%, misfit(total, data, alpha, model)=(0.0088563,0.0067636,1.00,0.0020927) -- accept ratio 99.67%
+
+chain 1: 57.00%, misfit(total, data, alpha, model)=(0.0088940,0.0067531,1.00,0.0021409) -- accept ratio 99.65%
+
+chain 0: 61.00%, misfit(total, data, alpha, model)=(0.0088567,0.0067641,1.00,0.0020926) -- accept ratio 99.67%
+
+chain 1: 57.20%, misfit(total, data, alpha, model)=(0.0088927,0.0067523,1.00,0.0021404) -- accept ratio 99.65%
+
+chain 0: 61.20%, misfit(total, data, alpha, model)=(0.0088557,0.0067633,1.00,0.0020924) -- accept ratio 99.67%
+
+chain 1: 57.40%, misfit(total, data, alpha, model)=(0.0088928,0.0067526,1.00,0.0021403) -- accept ratio 99.65%
+
+chain 0: 61.40%, misfit(total, data, alpha, model)=(0.0088560,0.0067637,1.00,0.0020923) -- accept ratio 99.68%
+
+chain 1: 57.60%, misfit(total, data, alpha, model)=(0.0088915,0.0067525,1.00,0.0021389) -- accept ratio 99.65%
+
+chain 0: 61.60%, misfit(total, data, alpha, model)=(0.0088559,0.0067637,1.00,0.0020922) -- accept ratio 99.68%
+
+chain 1: 57.80%, misfit(total, data, alpha, model)=(0.0088907,0.0067520,1.00,0.0021387) -- accept ratio 99.66%
+
+chain 0: 61.80%, misfit(total, data, alpha, model)=(0.0088558,0.0067636,1.00,0.0020922) -- accept ratio 99.68%
+
+chain 1: 58.00%, misfit(total, data, alpha, model)=(0.0088880,0.0067513,1.00,0.0021367) -- accept ratio 99.66%
+
+chain 0: 62.00%, misfit(total, data, alpha, model)=(0.0088560,0.0067641,1.00,0.0020919) -- accept ratio 99.68%
+
+chain 1: 58.20%, misfit(total, data, alpha, model)=(0.0088872,0.0067522,1.00,0.0021350) -- accept ratio 99.66%
+
+chain 0: 62.20%, misfit(total, data, alpha, model)=(0.0088555,0.0067636,1.00,0.0020919) -- accept ratio 99.68%
+
+chain 1: 58.40%, misfit(total, data, alpha, model)=(0.0088752,0.0067521,1.00,0.0021231) -- accept ratio 99.66%
+
+chain 1: 58.60%, misfit(total, data, alpha, model)=(0.0088708,0.0067533,1.00,0.0021176) -- accept ratio 99.66%
+
+chain 0: 62.40%, misfit(total, data, alpha, model)=(0.0088552,0.0067635,1.00,0.0020916) -- accept ratio 99.68%
+
+chain 1: 58.80%, misfit(total, data, alpha, model)=(0.0088692,0.0067521,1.00,0.0021172) -- accept ratio 99.66%
+
+chain 0: 62.60%, misfit(total, data, alpha, model)=(0.0088550,0.0067635,1.00,0.0020916) -- accept ratio 99.68%
+
+chain 0: 62.80%, misfit(total, data, alpha, model)=(0.0088547,0.0067632,1.00,0.0020916) -- accept ratio 99.68%
+
+chain 1: 59.00%, misfit(total, data, alpha, model)=(0.0088682,0.0067513,1.00,0.0021169) -- accept ratio 99.66%
+
+chain 0: 63.00%, misfit(total, data, alpha, model)=(0.0088554,0.0067643,1.00,0.0020912) -- accept ratio 99.68%
+
+chain 1: 59.20%, misfit(total, data, alpha, model)=(0.0088674,0.0067508,1.00,0.0021166) -- accept ratio 99.66%
+
+chain 0: 63.20%, misfit(total, data, alpha, model)=(0.0088546,0.0067637,1.00,0.0020909) -- accept ratio 99.68%
+
+chain 1: 59.40%, misfit(total, data, alpha, model)=(0.0088680,0.0067515,1.00,0.0021165) -- accept ratio 99.66%
+
+chain 1: 59.60%, misfit(total, data, alpha, model)=(0.0088671,0.0067507,1.00,0.0021164) -- accept ratio 99.67%
+
+chain 0: 63.40%, misfit(total, data, alpha, model)=(0.0088550,0.0067645,1.00,0.0020905) -- accept ratio 99.69%
+
+chain 0: 63.60%, misfit(total, data, alpha, model)=(0.0088543,0.0067641,1.00,0.0020902) -- accept ratio 99.69%
+
+chain 1: 59.80%, misfit(total, data, alpha, model)=(0.0088665,0.0067505,1.00,0.0021160) -- accept ratio 99.67%
+
+chain 1: 60.00%, misfit(total, data, alpha, model)=(0.0088662,0.0067507,1.00,0.0021156) -- accept ratio 99.67%
+
+chain 0: 63.80%, misfit(total, data, alpha, model)=(0.0088542,0.0067649,1.00,0.0020893) -- accept ratio 99.69%
+
+chain 1: 60.20%, misfit(total, data, alpha, model)=(0.0088651,0.0067501,1.00,0.0021150) -- accept ratio 99.67%
+
+chain 0: 64.00%, misfit(total, data, alpha, model)=(0.0088539,0.0067658,1.00,0.0020882) -- accept ratio 99.69%
+
+chain 1: 60.40%, misfit(total, data, alpha, model)=(0.0088638,0.0067506,1.00,0.0021132) -- accept ratio 99.67%
+
+chain 0: 64.20%, misfit(total, data, alpha, model)=(0.0088533,0.0067666,1.00,0.0020867) -- accept ratio 99.69%
+
+chain 1: 60.60%, misfit(total, data, alpha, model)=(0.0088620,0.0067494,1.00,0.0021126) -- accept ratio 99.67%
+
+chain 0: 64.40%, misfit(total, data, alpha, model)=(0.0088502,0.0067655,1.00,0.0020848) -- accept ratio 99.69%
+
+chain 1: 60.80%, misfit(total, data, alpha, model)=(0.0088592,0.0067510,1.00,0.0021082) -- accept ratio 99.67%
+
+chain 0: 64.60%, misfit(total, data, alpha, model)=(0.0088504,0.0067677,1.00,0.0020827) -- accept ratio 99.69%
+
+chain 1: 61.00%, misfit(total, data, alpha, model)=(0.0088577,0.0067504,1.00,0.0021073) -- accept ratio 99.67%
+
+chain 0: 64.80%, misfit(total, data, alpha, model)=(0.0088481,0.0067677,1.00,0.0020805) -- accept ratio 99.69%
+
+chain 1: 61.20%, misfit(total, data, alpha, model)=(0.0088577,0.0067505,1.00,0.0021072) -- accept ratio 99.67%
+
+chain 0: 65.00%, misfit(total, data, alpha, model)=(0.0088484,0.0067684,1.00,0.0020800) -- accept ratio 99.69%
+
+chain 0: 65.20%, misfit(total, data, alpha, model)=(0.0088478,0.0067681,1.00,0.0020797) -- accept ratio 99.69%
+
+chain 1: 61.40%, misfit(total, data, alpha, model)=(0.0088564,0.0067492,1.00,0.0021072) -- accept ratio 99.68%
+
+chain 0: 65.40%, misfit(total, data, alpha, model)=(0.0088476,0.0067686,1.00,0.0020790) -- accept ratio 99.70%
+
+chain 1: 61.60%, misfit(total, data, alpha, model)=(0.0088559,0.0067488,1.00,0.0021071) -- accept ratio 99.68%
+
+chain 1: 61.80%, misfit(total, data, alpha, model)=(0.0088555,0.0067483,1.00,0.0021072) -- accept ratio 99.68%
+
+chain 0: 65.60%, misfit(total, data, alpha, model)=(0.0088476,0.0067693,1.00,0.0020783) -- accept ratio 99.70%
+
+chain 1: 62.00%, misfit(total, data, alpha, model)=(0.0088557,0.0067486,1.00,0.0021071) -- accept ratio 99.68%
+
+chain 0: 65.80%, misfit(total, data, alpha, model)=(0.0088489,0.0067712,1.00,0.0020777) -- accept ratio 99.70%
+
+chain 0: 66.00%, misfit(total, data, alpha, model)=(0.0088477,0.0067703,1.00,0.0020774) -- accept ratio 99.70%
+
+chain 1: 62.20%, misfit(total, data, alpha, model)=(0.0088546,0.0067476,1.00,0.0021070) -- accept ratio 99.68%
+
+chain 0: 66.20%, misfit(total, data, alpha, model)=(0.0088482,0.0067709,1.00,0.0020772) -- accept ratio 99.70%
+
+chain 0: 66.40%, misfit(total, data, alpha, model)=(0.0088483,0.0067712,1.00,0.0020771) -- accept ratio 99.70%
+
+chain 1: 62.40%, misfit(total, data, alpha, model)=(0.0088547,0.0067477,1.00,0.0021070) -- accept ratio 99.68%
+
+chain 0: 66.60%, misfit(total, data, alpha, model)=(0.0088492,0.0067729,1.00,0.0020763) -- accept ratio 99.70%
+
+chain 1: 62.60%, misfit(total, data, alpha, model)=(0.0088541,0.0067472,1.00,0.0021069) -- accept ratio 99.68%
+
+chain 0: 66.80%, misfit(total, data, alpha, model)=(0.0088484,0.0067734,1.00,0.0020750) -- accept ratio 99.70%
+
+chain 1: 62.80%, misfit(total, data, alpha, model)=(0.0088536,0.0067467,1.00,0.0021069) -- accept ratio 99.68%
+
+chain 0: 67.00%, misfit(total, data, alpha, model)=(0.0088496,0.0067752,1.00,0.0020744) -- accept ratio 99.70%
+
+chain 1: 63.00%, misfit(total, data, alpha, model)=(0.0088541,0.0067472,1.00,0.0021069) -- accept ratio 99.68%
+
+chain 0: 67.20%, misfit(total, data, alpha, model)=(0.0088492,0.0067767,1.00,0.0020725) -- accept ratio 99.70%
+
+chain 1: 63.20%, misfit(total, data, alpha, model)=(0.0088541,0.0067473,1.00,0.0021068) -- accept ratio 99.68%
+
+chain 1: 63.40%, misfit(total, data, alpha, model)=(0.0088539,0.0067471,1.00,0.0021068) -- accept ratio 99.69%
+
+chain 0: 67.40%, misfit(total, data, alpha, model)=(0.0088445,0.0067824,1.00,0.0020621) -- accept ratio 99.70%
+
+chain 0: 67.60%, misfit(total, data, alpha, model)=(0.0088290,0.0067924,1.00,0.0020366) -- accept ratio 99.71%
+
+chain 1: 63.60%, misfit(total, data, alpha, model)=(0.0088526,0.0067458,1.00,0.0021068) -- accept ratio 99.69%
+
+chain 0: 67.80%, misfit(total, data, alpha, model)=(0.0088267,0.0067915,1.00,0.0020352) -- accept ratio 99.71%
+
+chain 1: 63.80%, misfit(total, data, alpha, model)=(0.0088524,0.0067458,1.00,0.0021066) -- accept ratio 99.69%
+
+chain 1: 64.00%, misfit(total, data, alpha, model)=(0.0088520,0.0067454,1.00,0.0021066) -- accept ratio 99.69%
+
+chain 0: 68.00%, misfit(total, data, alpha, model)=(0.0088255,0.0067906,1.00,0.0020350) -- accept ratio 99.71%
+
+chain 1: 64.20%, misfit(total, data, alpha, model)=(0.0088521,0.0067455,1.00,0.0021066) -- accept ratio 99.69%
+
+chain 1: 64.40%, misfit(total, data, alpha, model)=(0.0088516,0.0067450,1.00,0.0021066) -- accept ratio 99.69%
+
+chain 0: 68.20%, misfit(total, data, alpha, model)=(0.0088252,0.0067913,1.00,0.0020339) -- accept ratio 99.71%
+
+chain 1: 64.60%, misfit(total, data, alpha, model)=(0.0088516,0.0067451,1.00,0.0021065) -- accept ratio 99.69%
+
+chain 0: 68.40%, misfit(total, data, alpha, model)=(0.0088254,0.0067922,1.00,0.0020332) -- accept ratio 99.71%
+
+chain 1: 64.80%, misfit(total, data, alpha, model)=(0.0088517,0.0067454,1.00,0.0021063) -- accept ratio 99.69%
+
+chain 0: 68.60%, misfit(total, data, alpha, model)=(0.0088256,0.0067932,1.00,0.0020323) -- accept ratio 99.71%
+
+chain 1: 65.00%, misfit(total, data, alpha, model)=(0.0088515,0.0067451,1.00,0.0021063) -- accept ratio 99.69%
+
+chain 0: 68.80%, misfit(total, data, alpha, model)=(0.0088259,0.0067945,1.00,0.0020314) -- accept ratio 99.71%
+
+chain 1: 65.20%, misfit(total, data, alpha, model)=(0.0088506,0.0067443,1.00,0.0021063) -- accept ratio 99.69%
+
+chain 0: 69.00%, misfit(total, data, alpha, model)=(0.0088260,0.0067953,1.00,0.0020306) -- accept ratio 99.71%
+
+chain 1: 65.40%, misfit(total, data, alpha, model)=(0.0088506,0.0067443,1.00,0.0021063) -- accept ratio 99.70%
+
+chain 1: 65.60%, misfit(total, data, alpha, model)=(0.0088504,0.0067441,1.00,0.0021063) -- accept ratio 99.70%
+
+chain 0: 69.20%, misfit(total, data, alpha, model)=(0.0088255,0.0067956,1.00,0.0020300) -- accept ratio 99.71%
+
+chain 1: 65.80%, misfit(total, data, alpha, model)=(0.0088508,0.0067445,1.00,0.0021063) -- accept ratio 99.70%
+
+chain 0: 69.40%, misfit(total, data, alpha, model)=(0.0088270,0.0067983,1.00,0.0020287) -- accept ratio 99.71%
+
+chain 1: 66.00%, misfit(total, data, alpha, model)=(0.0088502,0.0067439,1.00,0.0021063) -- accept ratio 99.70%
+
+chain 1: 66.20%, misfit(total, data, alpha, model)=(0.0088512,0.0067451,1.00,0.0021060) -- accept ratio 99.70%
+
+chain 0: 69.60%, misfit(total, data, alpha, model)=(0.0088215,0.0068066,1.00,0.0020150) -- accept ratio 99.71%
+
+chain 1: 66.40%, misfit(total, data, alpha, model)=(0.0088501,0.0067440,1.00,0.0021061) -- accept ratio 99.70%
+
+chain 1: 66.60%, misfit(total, data, alpha, model)=(0.0088504,0.0067444,1.00,0.0021060) -- accept ratio 99.70%
+
+chain 0: 69.80%, misfit(total, data, alpha, model)=(0.0088164,0.0068076,1.00,0.0020089) -- accept ratio 99.71%
+
+chain 1: 66.80%, misfit(total, data, alpha, model)=(0.0088497,0.0067437,1.00,0.0021060) -- accept ratio 99.70%
+
+chain 0: 70.00%, misfit(total, data, alpha, model)=(0.0088138,0.0068047,1.00,0.0020092) -- accept ratio 99.72%
+
+chain 1: 67.00%, misfit(total, data, alpha, model)=(0.0088496,0.0067437,1.00,0.0021059) -- accept ratio 99.70%
+
+chain 0: 70.20%, misfit(total, data, alpha, model)=(0.0088086,0.0068087,1.00,0.0019999) -- accept ratio 99.72%
+
+chain 1: 67.20%, misfit(total, data, alpha, model)=(0.0088494,0.0067435,1.00,0.0021058) -- accept ratio 99.70%
+
+chain 0: 70.40%, misfit(total, data, alpha, model)=(0.0088048,0.0068148,1.00,0.0019900) -- accept ratio 99.72%
+
+chain 1: 67.40%, misfit(total, data, alpha, model)=(0.0088488,0.0067431,1.00,0.0021057) -- accept ratio 99.70%
+
+chain 1: 67.60%, misfit(total, data, alpha, model)=(0.0088481,0.0067425,1.00,0.0021057) -- accept ratio 99.71%
+
+chain 0: 70.60%, misfit(total, data, alpha, model)=(0.0088022,0.0068125,1.00,0.0019896) -- accept ratio 99.72%
+
+chain 1: 67.80%, misfit(total, data, alpha, model)=(0.0088483,0.0067429,1.00,0.0021055) -- accept ratio 99.71%
+
+chain 0: 70.80%, misfit(total, data, alpha, model)=(0.0088005,0.0068113,1.00,0.0019892) -- accept ratio 99.72%
+
+chain 1: 68.00%, misfit(total, data, alpha, model)=(0.0088471,0.0067420,1.00,0.0021050) -- accept ratio 99.71%
+
+chain 0: 71.00%, misfit(total, data, alpha, model)=(0.0087991,0.0068103,1.00,0.0019888) -- accept ratio 99.72%
+
+chain 0: 71.20%, misfit(total, data, alpha, model)=(0.0087989,0.0068103,1.00,0.0019886) -- accept ratio 99.72%
+
+chain 1: 68.20%, misfit(total, data, alpha, model)=(0.0088468,0.0067422,1.00,0.0021046) -- accept ratio 99.71%
+
+chain 1: 68.40%, misfit(total, data, alpha, model)=(0.0088467,0.0067423,1.00,0.0021043) -- accept ratio 99.71%
+
+chain 0: 71.40%, misfit(total, data, alpha, model)=(0.0087972,0.0068095,1.00,0.0019877) -- accept ratio 99.72%
+
+chain 1: 68.60%, misfit(total, data, alpha, model)=(0.0088461,0.0067420,1.00,0.0021041) -- accept ratio 99.71%
+
+chain 0: 71.60%, misfit(total, data, alpha, model)=(0.0087958,0.0068089,1.00,0.0019869) -- accept ratio 99.72%
+
+chain 1: 68.80%, misfit(total, data, alpha, model)=(0.0088458,0.0067421,1.00,0.0021037) -- accept ratio 99.71%
+
+chain 0: 71.80%, misfit(total, data, alpha, model)=(0.0087953,0.0068091,1.00,0.0019862) -- accept ratio 99.72%
+
+chain 0: 72.00%, misfit(total, data, alpha, model)=(0.0087945,0.0068084,1.00,0.0019861) -- accept ratio 99.72%
+
+chain 1: 69.00%, misfit(total, data, alpha, model)=(0.0088434,0.0067413,1.00,0.0021022) -- accept ratio 99.71%
+
+chain 0: 72.20%, misfit(total, data, alpha, model)=(0.0087945,0.0068086,1.00,0.0019859) -- accept ratio 99.72%
+
+chain 1: 69.20%, misfit(total, data, alpha, model)=(0.0088440,0.0067421,1.00,0.0021019) -- accept ratio 99.71%
+
+chain 1: 69.40%, misfit(total, data, alpha, model)=(0.0088432,0.0067415,1.00,0.0021017) -- accept ratio 99.71%
+
+chain 0: 72.40%, misfit(total, data, alpha, model)=(0.0087929,0.0068071,1.00,0.0019858) -- accept ratio 99.72%
+
+chain 1: 69.60%, misfit(total, data, alpha, model)=(0.0088426,0.0067411,1.00,0.0021016) -- accept ratio 99.71%
+
+chain 0: 72.60%, misfit(total, data, alpha, model)=(0.0087933,0.0068076,1.00,0.0019857) -- accept ratio 99.73%
+
+chain 1: 69.80%, misfit(total, data, alpha, model)=(0.0088427,0.0067414,1.00,0.0021013) -- accept ratio 99.71%
+
+chain 0: 72.80%, misfit(total, data, alpha, model)=(0.0087930,0.0068072,1.00,0.0019858) -- accept ratio 99.73%
+
+chain 1: 70.00%, misfit(total, data, alpha, model)=(0.0088422,0.0067411,1.00,0.0021011) -- accept ratio 99.72%
+
+chain 1: 70.20%, misfit(total, data, alpha, model)=(0.0088423,0.0067415,1.00,0.0021008) -- accept ratio 99.72%
+
+chain 0: 73.00%, misfit(total, data, alpha, model)=(0.0087921,0.0068063,1.00,0.0019857) -- accept ratio 99.73%
+
+chain 0: 73.20%, misfit(total, data, alpha, model)=(0.0087915,0.0068057,1.00,0.0019858) -- accept ratio 99.73%
+
+chain 1: 70.40%, misfit(total, data, alpha, model)=(0.0088417,0.0067409,1.00,0.0021008) -- accept ratio 99.72%
+
+chain 0: 73.40%, misfit(total, data, alpha, model)=(0.0087903,0.0068046,1.00,0.0019857) -- accept ratio 99.73%
+
+chain 1: 70.60%, misfit(total, data, alpha, model)=(0.0088408,0.0067402,1.00,0.0021006) -- accept ratio 99.72%
+
+chain 0: 73.60%, misfit(total, data, alpha, model)=(0.0087902,0.0068045,1.00,0.0019857) -- accept ratio 99.73%
+
+chain 1: 70.80%, misfit(total, data, alpha, model)=(0.0088410,0.0067405,1.00,0.0021005) -- accept ratio 99.72%
+
+chain 1: 71.00%, misfit(total, data, alpha, model)=(0.0088409,0.0067405,1.00,0.0021005) -- accept ratio 99.72%
+
+chain 0: 73.80%, misfit(total, data, alpha, model)=(0.0087896,0.0068038,1.00,0.0019857) -- accept ratio 99.73%
+
+chain 0: 74.00%, misfit(total, data, alpha, model)=(0.0087894,0.0068037,1.00,0.0019857) -- accept ratio 99.73%
+
+chain 1: 71.20%, misfit(total, data, alpha, model)=(0.0088398,0.0067395,1.00,0.0021003) -- accept ratio 99.72%
+
+chain 0: 74.20%, misfit(total, data, alpha, model)=(0.0087887,0.0068030,1.00,0.0019857) -- accept ratio 99.73%
+
+chain 1: 71.40%, misfit(total, data, alpha, model)=(0.0088390,0.0067387,1.00,0.0021003) -- accept ratio 99.72%
+
+chain 0: 74.40%, misfit(total, data, alpha, model)=(0.0087884,0.0068026,1.00,0.0019857) -- accept ratio 99.73%
+
+chain 1: 71.60%, misfit(total, data, alpha, model)=(0.0088397,0.0067397,1.00,0.0021000) -- accept ratio 99.72%
+
+chain 0: 74.60%, misfit(total, data, alpha, model)=(0.0087881,0.0068024,1.00,0.0019857) -- accept ratio 99.73%
+
+chain 1: 71.80%, misfit(total, data, alpha, model)=(0.0088385,0.0067386,1.00,0.0020999) -- accept ratio 99.72%
+
+chain 0: 74.80%, misfit(total, data, alpha, model)=(0.0087869,0.0068012,1.00,0.0019857) -- accept ratio 99.73%
+
+chain 1: 72.00%, misfit(total, data, alpha, model)=(0.0088391,0.0067395,1.00,0.0020996) -- accept ratio 99.72%
+
+chain 1: 72.20%, misfit(total, data, alpha, model)=(0.0088389,0.0067393,1.00,0.0020996) -- accept ratio 99.72%
+
+chain 0: 75.00%, misfit(total, data, alpha, model)=(0.0087866,0.0068010,1.00,0.0019856) -- accept ratio 99.73%
+
+chain 1: 72.40%, misfit(total, data, alpha, model)=(0.0088382,0.0067385,1.00,0.0020996) -- accept ratio 99.72%
+
+chain 0: 75.20%, misfit(total, data, alpha, model)=(0.0087859,0.0068003,1.00,0.0019856) -- accept ratio 99.73%
+
+chain 1: 72.60%, misfit(total, data, alpha, model)=(0.0088378,0.0067385,1.00,0.0020993) -- accept ratio 99.73%
+
+chain 0: 75.40%, misfit(total, data, alpha, model)=(0.0087859,0.0068003,1.00,0.0019856) -- accept ratio 99.74%
+
+chain 1: 72.80%, misfit(total, data, alpha, model)=(0.0088371,0.0067384,1.00,0.0020987) -- accept ratio 99.73%
+
+chain 0: 75.60%, misfit(total, data, alpha, model)=(0.0087851,0.0067995,1.00,0.0019856) -- accept ratio 99.74%
+
+chain 1: 73.00%, misfit(total, data, alpha, model)=(0.0088360,0.0067375,1.00,0.0020985) -- accept ratio 99.73%
+
+chain 0: 75.80%, misfit(total, data, alpha, model)=(0.0087855,0.0067999,1.00,0.0019856) -- accept ratio 99.74%
+
+chain 0: 76.00%, misfit(total, data, alpha, model)=(0.0087844,0.0067986,1.00,0.0019857) -- accept ratio 99.74%
+
+chain 1: 73.20%, misfit(total, data, alpha, model)=(0.0088359,0.0067387,1.00,0.0020971) -- accept ratio 99.73%
+
+chain 0: 76.20%, misfit(total, data, alpha, model)=(0.0087849,0.0067994,1.00,0.0019856) -- accept ratio 99.74%
+
+chain 0: 76.40%, misfit(total, data, alpha, model)=(0.0087842,0.0067986,1.00,0.0019856) -- accept ratio 99.74%
+
+chain 1: 73.40%, misfit(total, data, alpha, model)=(0.0088339,0.0067379,1.00,0.0020959) -- accept ratio 99.73%
+
+chain 0: 76.60%, misfit(total, data, alpha, model)=(0.0087847,0.0067992,1.00,0.0019855) -- accept ratio 99.74%
+
+chain 1: 73.60%, misfit(total, data, alpha, model)=(0.0088290,0.0067390,1.00,0.0020900) -- accept ratio 99.73%
+
+chain 0: 76.80%, misfit(total, data, alpha, model)=(0.0087835,0.0067979,1.00,0.0019856) -- accept ratio 99.74%
+
+chain 1: 73.80%, misfit(total, data, alpha, model)=(0.0088182,0.0067403,1.00,0.0020779) -- accept ratio 99.73%
+
+chain 1: 74.00%, misfit(total, data, alpha, model)=(0.0088172,0.0067407,1.00,0.0020765) -- accept ratio 99.73%
+
+chain 1: 74.20%, misfit(total, data, alpha, model)=(0.0088166,0.0067417,1.00,0.0020749) -- accept ratio 99.73%
+
+chain 0: 77.00%, misfit(total, data, alpha, model)=(0.0087831,0.0067976,1.00,0.0019855) -- accept ratio 99.74%
+
+chain 0: 77.20%, misfit(total, data, alpha, model)=(0.0087821,0.0067965,1.00,0.0019856) -- accept ratio 99.74%
+
+chain 1: 74.40%, misfit(total, data, alpha, model)=(0.0088137,0.0067390,1.00,0.0020747) -- accept ratio 99.73%
+
+chain 0: 77.40%, misfit(total, data, alpha, model)=(0.0087828,0.0067973,1.00,0.0019855) -- accept ratio 99.74%
+
+chain 1: 74.60%, misfit(total, data, alpha, model)=(0.0088139,0.0067392,1.00,0.0020746) -- accept ratio 99.73%
+
+chain 1: 74.80%, misfit(total, data, alpha, model)=(0.0088140,0.0067394,1.00,0.0020745) -- accept ratio 99.73%
+
+chain 0: 77.60%, misfit(total, data, alpha, model)=(0.0087816,0.0067961,1.00,0.0019855) -- accept ratio 99.74%
+
+chain 1: 75.00%, misfit(total, data, alpha, model)=(0.0088141,0.0067398,1.00,0.0020743) -- accept ratio 99.73%
+
+chain 0: 77.80%, misfit(total, data, alpha, model)=(0.0087820,0.0067965,1.00,0.0019854) -- accept ratio 99.74%
+
+chain 1: 75.20%, misfit(total, data, alpha, model)=(0.0088130,0.0067389,1.00,0.0020742) -- accept ratio 99.73%
+
+chain 1: 75.40%, misfit(total, data, alpha, model)=(0.0088131,0.0067391,1.00,0.0020741) -- accept ratio 99.74%
+
+chain 0: 78.00%, misfit(total, data, alpha, model)=(0.0087808,0.0067953,1.00,0.0019855) -- accept ratio 99.74%
+
+chain 0: 78.20%, misfit(total, data, alpha, model)=(0.0087806,0.0067950,1.00,0.0019856) -- accept ratio 99.74%
+
+chain 1: 75.60%, misfit(total, data, alpha, model)=(0.0088117,0.0067386,1.00,0.0020731) -- accept ratio 99.74%
+
+chain 0: 78.40%, misfit(total, data, alpha, model)=(0.0087820,0.0067966,1.00,0.0019854) -- accept ratio 99.75%
+
+chain 0: 78.60%, misfit(total, data, alpha, model)=(0.0087808,0.0067953,1.00,0.0019855) -- accept ratio 99.75%
+
+chain 1: 75.80%, misfit(total, data, alpha, model)=(0.0088108,0.0067383,1.00,0.0020725) -- accept ratio 99.74%
+
+chain 0: 78.80%, misfit(total, data, alpha, model)=(0.0087809,0.0067954,1.00,0.0019855) -- accept ratio 99.75%
+
+chain 1: 76.00%, misfit(total, data, alpha, model)=(0.0088111,0.0067389,1.00,0.0020722) -- accept ratio 99.74%
+
+chain 1: 76.20%, misfit(total, data, alpha, model)=(0.0088102,0.0067384,1.00,0.0020718) -- accept ratio 99.74%
+
+chain 0: 79.00%, misfit(total, data, alpha, model)=(0.0087803,0.0067949,1.00,0.0019855) -- accept ratio 99.75%
+
+chain 0: 79.20%, misfit(total, data, alpha, model)=(0.0087804,0.0067950,1.00,0.0019855) -- accept ratio 99.75%
+
+chain 1: 76.40%, misfit(total, data, alpha, model)=(0.0088092,0.0067383,1.00,0.0020709) -- accept ratio 99.74%
+
+chain 1: 76.60%, misfit(total, data, alpha, model)=(0.0088085,0.0067381,1.00,0.0020704) -- accept ratio 99.74%
+
+chain 0: 79.40%, misfit(total, data, alpha, model)=(0.0087796,0.0067941,1.00,0.0019855) -- accept ratio 99.75%
+
+chain 0: 79.60%, misfit(total, data, alpha, model)=(0.0087796,0.0067941,1.00,0.0019855) -- accept ratio 99.75%
+
+chain 0: 79.80%, misfit(total, data, alpha, model)=(0.0087798,0.0067943,1.00,0.0019855) -- accept ratio 99.75%
+
+chain 1: 76.80%, misfit(total, data, alpha, model)=(0.0088073,0.0067372,1.00,0.0020701) -- accept ratio 99.74%
+
+chain 1: 77.00%, misfit(total, data, alpha, model)=(0.0088079,0.0067380,1.00,0.0020699) -- accept ratio 99.74%
+
+chain 0: 80.00%, misfit(total, data, alpha, model)=(0.0087793,0.0067939,1.00,0.0019854) -- accept ratio 99.75%
+
+chain 1: 77.20%, misfit(total, data, alpha, model)=(0.0088065,0.0067365,1.00,0.0020700) -- accept ratio 99.74%
+
+chain 0: 80.20%, misfit(total, data, alpha, model)=(0.0087789,0.0067935,1.00,0.0019854) -- accept ratio 99.75%
+
+chain 1: 77.40%, misfit(total, data, alpha, model)=(0.0088072,0.0067373,1.00,0.0020699) -- accept ratio 99.74%
+
+chain 1: 77.60%, misfit(total, data, alpha, model)=(0.0088066,0.0067368,1.00,0.0020698) -- accept ratio 99.74%
+
+chain 0: 80.40%, misfit(total, data, alpha, model)=(0.0087780,0.0067926,1.00,0.0019854) -- accept ratio 99.75%
+
+chain 1: 77.80%, misfit(total, data, alpha, model)=(0.0088065,0.0067368,1.00,0.0020697) -- accept ratio 99.74%
+
+chain 0: 80.60%, misfit(total, data, alpha, model)=(0.0087776,0.0067922,1.00,0.0019854) -- accept ratio 99.75%
+
+chain 1: 78.00%, misfit(total, data, alpha, model)=(0.0088065,0.0067369,1.00,0.0020697) -- accept ratio 99.74%
+
+chain 1: 78.20%, misfit(total, data, alpha, model)=(0.0088056,0.0067359,1.00,0.0020697) -- accept ratio 99.74%
+
+chain 0: 80.80%, misfit(total, data, alpha, model)=(0.0087776,0.0067922,1.00,0.0019853) -- accept ratio 99.75%
+
+chain 0: 81.00%, misfit(total, data, alpha, model)=(0.0087774,0.0067920,1.00,0.0019854) -- accept ratio 99.75%
+
+chain 1: 78.40%, misfit(total, data, alpha, model)=(0.0088057,0.0067364,1.00,0.0020693) -- accept ratio 99.75%
+
+chain 1: 78.60%, misfit(total, data, alpha, model)=(0.0088044,0.0067351,1.00,0.0020693) -- accept ratio 99.75%
+
+chain 0: 81.20%, misfit(total, data, alpha, model)=(0.0087767,0.0067914,1.00,0.0019854) -- accept ratio 99.75%
+
+chain 1: 78.80%, misfit(total, data, alpha, model)=(0.0088047,0.0067356,1.00,0.0020691) -- accept ratio 99.75%
+
+chain 0: 81.40%, misfit(total, data, alpha, model)=(0.0087763,0.0067909,1.00,0.0019854) -- accept ratio 99.75%
+
+chain 1: 79.00%, misfit(total, data, alpha, model)=(0.0088052,0.0067361,1.00,0.0020690) -- accept ratio 99.75%
+
+chain 0: 81.60%, misfit(total, data, alpha, model)=(0.0087764,0.0067910,1.00,0.0019853) -- accept ratio 99.76%
+
+chain 1: 79.20%, misfit(total, data, alpha, model)=(0.0088038,0.0067353,1.00,0.0020685) -- accept ratio 99.75%
+
+chain 0: 81.80%, misfit(total, data, alpha, model)=(0.0087757,0.0067903,1.00,0.0019854) -- accept ratio 99.76%
+
+chain 1: 79.40%, misfit(total, data, alpha, model)=(0.0088038,0.0067362,1.00,0.0020676) -- accept ratio 99.75%
+
+chain 0: 82.00%, misfit(total, data, alpha, model)=(0.0087755,0.0067902,1.00,0.0019854) -- accept ratio 99.76%
+
+chain 1: 79.60%, misfit(total, data, alpha, model)=(0.0088034,0.0067360,1.00,0.0020674) -- accept ratio 99.75%
+
+chain 0: 82.20%, misfit(total, data, alpha, model)=(0.0087755,0.0067902,1.00,0.0019854) -- accept ratio 99.76%
+
+chain 1: 79.80%, misfit(total, data, alpha, model)=(0.0088016,0.0067350,1.00,0.0020667) -- accept ratio 99.75%
+
+chain 0: 82.40%, misfit(total, data, alpha, model)=(0.0087757,0.0067904,1.00,0.0019853) -- accept ratio 99.76%
+
+chain 1: 80.00%, misfit(total, data, alpha, model)=(0.0088002,0.0067346,1.00,0.0020656) -- accept ratio 99.75%
+
+chain 0: 82.60%, misfit(total, data, alpha, model)=(0.0087746,0.0067892,1.00,0.0019854) -- accept ratio 99.76%
+
+chain 1: 80.20%, misfit(total, data, alpha, model)=(0.0087999,0.0067346,1.00,0.0020653) -- accept ratio 99.75%
+
+chain 0: 82.80%, misfit(total, data, alpha, model)=(0.0087744,0.0067891,1.00,0.0019853) -- accept ratio 99.76%
+
+chain 1: 80.40%, misfit(total, data, alpha, model)=(0.0087987,0.0067334,1.00,0.0020653) -- accept ratio 99.75%
+
+chain 0: 83.00%, misfit(total, data, alpha, model)=(0.0087739,0.0067886,1.00,0.0019853) -- accept ratio 99.76%
+
+chain 0: 83.20%, misfit(total, data, alpha, model)=(0.0087742,0.0067890,1.00,0.0019853) -- accept ratio 99.76%
+
+chain 1: 80.60%, misfit(total, data, alpha, model)=(0.0087986,0.0067333,1.00,0.0020653) -- accept ratio 99.75%
+
+chain 0: 83.40%, misfit(total, data, alpha, model)=(0.0087735,0.0067882,1.00,0.0019853) -- accept ratio 99.76%
+
+chain 1: 80.80%, misfit(total, data, alpha, model)=(0.0087977,0.0067324,1.00,0.0020653) -- accept ratio 99.75%
+
+chain 1: 81.00%, misfit(total, data, alpha, model)=(0.0087981,0.0067328,1.00,0.0020653) -- accept ratio 99.75%
+
+chain 0: 83.60%, misfit(total, data, alpha, model)=(0.0087727,0.0067874,1.00,0.0019853) -- accept ratio 99.76%
+
+chain 1: 81.20%, misfit(total, data, alpha, model)=(0.0087978,0.0067325,1.00,0.0020653) -- accept ratio 99.75%
+
+chain 0: 83.80%, misfit(total, data, alpha, model)=(0.0087728,0.0067875,1.00,0.0019853) -- accept ratio 99.76%
+
+chain 1: 81.40%, misfit(total, data, alpha, model)=(0.0087976,0.0067323,1.00,0.0020653) -- accept ratio 99.75%
+
+chain 0: 84.00%, misfit(total, data, alpha, model)=(0.0087730,0.0067878,1.00,0.0019853) -- accept ratio 99.76%
+
+chain 1: 81.60%, misfit(total, data, alpha, model)=(0.0087979,0.0067326,1.00,0.0020652) -- accept ratio 99.76%
+
+chain 0: 84.20%, misfit(total, data, alpha, model)=(0.0087721,0.0067868,1.00,0.0019854) -- accept ratio 99.76%
+
+chain 1: 81.80%, misfit(total, data, alpha, model)=(0.0087973,0.0067320,1.00,0.0020653) -- accept ratio 99.76%
+
+chain 0: 84.40%, misfit(total, data, alpha, model)=(0.0087734,0.0067883,1.00,0.0019851) -- accept ratio 99.76%
+
+chain 1: 82.00%, misfit(total, data, alpha, model)=(0.0087971,0.0067319,1.00,0.0020652) -- accept ratio 99.76%
+
+chain 0: 84.60%, misfit(total, data, alpha, model)=(0.0087716,0.0067864,1.00,0.0019853) -- accept ratio 99.76%
+
+chain 1: 82.20%, misfit(total, data, alpha, model)=(0.0087961,0.0067308,1.00,0.0020653) -- accept ratio 99.76%
+
+chain 0: 84.80%, misfit(total, data, alpha, model)=(0.0087721,0.0067869,1.00,0.0019852) -- accept ratio 99.76%
+
+chain 1: 82.40%, misfit(total, data, alpha, model)=(0.0087965,0.0067313,1.00,0.0020652) -- accept ratio 99.76%
+
+chain 1: 82.60%, misfit(total, data, alpha, model)=(0.0087967,0.0067315,1.00,0.0020652) -- accept ratio 99.76%
+
+chain 0: 85.00%, misfit(total, data, alpha, model)=(0.0087711,0.0067858,1.00,0.0019853) -- accept ratio 99.77%
+
+chain 1: 82.80%, misfit(total, data, alpha, model)=(0.0087956,0.0067303,1.00,0.0020653) -- accept ratio 99.76%
+
+chain 0: 85.20%, misfit(total, data, alpha, model)=(0.0087720,0.0067868,1.00,0.0019852) -- accept ratio 99.77%
+
+chain 0: 85.40%, misfit(total, data, alpha, model)=(0.0087709,0.0067856,1.00,0.0019853) -- accept ratio 99.77%
+
+chain 1: 83.00%, misfit(total, data, alpha, model)=(0.0087961,0.0067309,1.00,0.0020652) -- accept ratio 99.76%
+
+chain 0: 85.60%, misfit(total, data, alpha, model)=(0.0087710,0.0067857,1.00,0.0019853) -- accept ratio 99.77%
+
+chain 0: 85.80%, misfit(total, data, alpha, model)=(0.0087714,0.0067862,1.00,0.0019852) -- accept ratio 99.77%
+
+chain 1: 83.20%, misfit(total, data, alpha, model)=(0.0087955,0.0067303,1.00,0.0020652) -- accept ratio 99.76%
+
+chain 0: 86.00%, misfit(total, data, alpha, model)=(0.0087715,0.0067863,1.00,0.0019852) -- accept ratio 99.77%
+
+chain 1: 83.40%, misfit(total, data, alpha, model)=(0.0087956,0.0067304,1.00,0.0020652) -- accept ratio 99.76%
+
+chain 1: 83.60%, misfit(total, data, alpha, model)=(0.0087957,0.0067305,1.00,0.0020652) -- accept ratio 99.76%
+
+chain 0: 86.20%, misfit(total, data, alpha, model)=(0.0087714,0.0067863,1.00,0.0019851) -- accept ratio 99.77%
+
+chain 0: 86.40%, misfit(total, data, alpha, model)=(0.0087708,0.0067856,1.00,0.0019852) -- accept ratio 99.77%
+
+chain 1: 83.80%, misfit(total, data, alpha, model)=(0.0087951,0.0067299,1.00,0.0020652) -- accept ratio 99.76%
+
+chain 1: 84.00%, misfit(total, data, alpha, model)=(0.0087948,0.0067296,1.00,0.0020652) -- accept ratio 99.76%
+
+chain 0: 86.60%, misfit(total, data, alpha, model)=(0.0087710,0.0067859,1.00,0.0019851) -- accept ratio 99.77%
+
+chain 1: 84.20%, misfit(total, data, alpha, model)=(0.0087944,0.0067292,1.00,0.0020652) -- accept ratio 99.76%
+
+chain 0: 86.80%, misfit(total, data, alpha, model)=(0.0087706,0.0067855,1.00,0.0019852) -- accept ratio 99.77%
+
+chain 1: 84.40%, misfit(total, data, alpha, model)=(0.0087947,0.0067295,1.00,0.0020652) -- accept ratio 99.76%
+
+chain 0: 87.00%, misfit(total, data, alpha, model)=(0.0087708,0.0067857,1.00,0.0019851) -- accept ratio 99.77%
+
+chain 1: 84.60%, misfit(total, data, alpha, model)=(0.0087949,0.0067298,1.00,0.0020652) -- accept ratio 99.76%
+
+chain 1: 84.80%, misfit(total, data, alpha, model)=(0.0087944,0.0067292,1.00,0.0020652) -- accept ratio 99.76%
+
+chain 0: 87.20%, misfit(total, data, alpha, model)=(0.0087699,0.0067848,1.00,0.0019851) -- accept ratio 99.77%
+
+chain 0: 87.40%, misfit(total, data, alpha, model)=(0.0087701,0.0067850,1.00,0.0019851) -- accept ratio 99.77%
+
+chain 1: 85.00%, misfit(total, data, alpha, model)=(0.0087940,0.0067288,1.00,0.0020652) -- accept ratio 99.77%
+
+chain 0: 87.60%, misfit(total, data, alpha, model)=(0.0087693,0.0067841,1.00,0.0019852) -- accept ratio 99.77%
+
+chain 0: 87.80%, misfit(total, data, alpha, model)=(0.0087703,0.0067853,1.00,0.0019850) -- accept ratio 99.77%
+
+chain 1: 85.20%, misfit(total, data, alpha, model)=(0.0087932,0.0067281,1.00,0.0020652) -- accept ratio 99.77%
+
+chain 0: 88.00%, misfit(total, data, alpha, model)=(0.0087693,0.0067842,1.00,0.0019851) -- accept ratio 99.77%
+
+chain 1: 85.40%, misfit(total, data, alpha, model)=(0.0087930,0.0067279,1.00,0.0020651) -- accept ratio 99.77%
+
+chain 1: 85.60%, misfit(total, data, alpha, model)=(0.0087935,0.0067284,1.00,0.0020651) -- accept ratio 99.77%
+
+chain 0: 88.20%, misfit(total, data, alpha, model)=(0.0087692,0.0067841,1.00,0.0019850) -- accept ratio 99.77%
+
+chain 1: 85.80%, misfit(total, data, alpha, model)=(0.0087934,0.0067283,1.00,0.0020651) -- accept ratio 99.77%
+
+chain 1: 86.00%, misfit(total, data, alpha, model)=(0.0087932,0.0067281,1.00,0.0020651) -- accept ratio 99.77%
+
+chain 0: 88.40%, misfit(total, data, alpha, model)=(0.0087690,0.0067840,1.00,0.0019850) -- accept ratio 99.77%
+
+chain 1: 86.20%, misfit(total, data, alpha, model)=(0.0087925,0.0067273,1.00,0.0020652) -- accept ratio 99.77%
+
+chain 1: 86.40%, misfit(total, data, alpha, model)=(0.0087923,0.0067271,1.00,0.0020651) -- accept ratio 99.77%
+
+chain 0: 88.60%, misfit(total, data, alpha, model)=(0.0087685,0.0067835,1.00,0.0019850) -- accept ratio 99.77%
+
+chain 0: 88.80%, misfit(total, data, alpha, model)=(0.0087686,0.0067836,1.00,0.0019850) -- accept ratio 99.78%
+
+chain 1: 86.60%, misfit(total, data, alpha, model)=(0.0087920,0.0067269,1.00,0.0020651) -- accept ratio 99.77%
+
+chain 0: 89.00%, misfit(total, data, alpha, model)=(0.0087685,0.0067835,1.00,0.0019850) -- accept ratio 99.78%
+
+chain 1: 86.80%, misfit(total, data, alpha, model)=(0.0087922,0.0067271,1.00,0.0020651) -- accept ratio 99.77%
+
+chain 0: 89.20%, misfit(total, data, alpha, model)=(0.0087683,0.0067833,1.00,0.0019850) -- accept ratio 99.78%
+
+chain 1: 87.00%, misfit(total, data, alpha, model)=(0.0087909,0.0067258,1.00,0.0020651) -- accept ratio 99.77%
+
+chain 0: 89.40%, misfit(total, data, alpha, model)=(0.0087681,0.0067831,1.00,0.0019849) -- accept ratio 99.78%
+
+chain 1: 87.20%, misfit(total, data, alpha, model)=(0.0087913,0.0067262,1.00,0.0020651) -- accept ratio 99.77%
+
+chain 0: 89.60%, misfit(total, data, alpha, model)=(0.0087678,0.0067829,1.00,0.0019849) -- accept ratio 99.78%
+
+chain 1: 87.40%, misfit(total, data, alpha, model)=(0.0087908,0.0067257,1.00,0.0020651) -- accept ratio 99.77%
+
+chain 0: 89.80%, misfit(total, data, alpha, model)=(0.0087684,0.0067835,1.00,0.0019849) -- accept ratio 99.78%
+
+chain 0: 90.00%, misfit(total, data, alpha, model)=(0.0087683,0.0067834,1.00,0.0019849) -- accept ratio 99.78%
+
+chain 1: 87.60%, misfit(total, data, alpha, model)=(0.0087899,0.0067248,1.00,0.0020651) -- accept ratio 99.77%
+
+chain 1: 87.80%, misfit(total, data, alpha, model)=(0.0087908,0.0067257,1.00,0.0020650) -- accept ratio 99.77%
+
+chain 0: 90.20%, misfit(total, data, alpha, model)=(0.0087669,0.0067820,1.00,0.0019849) -- accept ratio 99.78%
+
+chain 1: 88.00%, misfit(total, data, alpha, model)=(0.0087894,0.0067243,1.00,0.0020651) -- accept ratio 99.77%
+
+chain 0: 90.40%, misfit(total, data, alpha, model)=(0.0087663,0.0067814,1.00,0.0019849) -- accept ratio 99.78%
+
+chain 1: 88.20%, misfit(total, data, alpha, model)=(0.0087899,0.0067249,1.00,0.0020650) -- accept ratio 99.77%
+
+chain 0: 90.60%, misfit(total, data, alpha, model)=(0.0087665,0.0067816,1.00,0.0019849) -- accept ratio 99.78%
+
+chain 0: 90.80%, misfit(total, data, alpha, model)=(0.0087664,0.0067815,1.00,0.0019849) -- accept ratio 99.78%
+
+chain 1: 88.40%, misfit(total, data, alpha, model)=(0.0087888,0.0067237,1.00,0.0020651) -- accept ratio 99.77%
+
+chain 0: 91.00%, misfit(total, data, alpha, model)=(0.0087665,0.0067816,1.00,0.0019848) -- accept ratio 99.78%
+
+chain 0: 91.20%, misfit(total, data, alpha, model)=(0.0087659,0.0067810,1.00,0.0019849) -- accept ratio 99.78%
+
+chain 1: 88.60%, misfit(total, data, alpha, model)=(0.0087886,0.0067235,1.00,0.0020651) -- accept ratio 99.77%
+
+chain 1: 88.80%, misfit(total, data, alpha, model)=(0.0087885,0.0067234,1.00,0.0020650) -- accept ratio 99.78%
+
+chain 0: 91.40%, misfit(total, data, alpha, model)=(0.0087666,0.0067818,1.00,0.0019848) -- accept ratio 99.78%
+
+chain 0: 91.60%, misfit(total, data, alpha, model)=(0.0087653,0.0067805,1.00,0.0019848) -- accept ratio 99.78%
+
+chain 1: 89.00%, misfit(total, data, alpha, model)=(0.0087879,0.0067229,1.00,0.0020650) -- accept ratio 99.78%
+
+chain 0: 91.80%, misfit(total, data, alpha, model)=(0.0087658,0.0067811,1.00,0.0019848) -- accept ratio 99.78%
+
+chain 1: 89.20%, misfit(total, data, alpha, model)=(0.0087881,0.0067231,1.00,0.0020650) -- accept ratio 99.78%
+
+chain 0: 92.00%, misfit(total, data, alpha, model)=(0.0087652,0.0067804,1.00,0.0019848) -- accept ratio 99.78%
+
+chain 1: 89.40%, misfit(total, data, alpha, model)=(0.0087877,0.0067227,1.00,0.0020650) -- accept ratio 99.78%
+
+chain 0: 92.20%, misfit(total, data, alpha, model)=(0.0087655,0.0067807,1.00,0.0019847) -- accept ratio 99.78%
+
+chain 1: 89.60%, misfit(total, data, alpha, model)=(0.0087878,0.0067229,1.00,0.0020649) -- accept ratio 99.78%
+
+chain 0: 92.40%, misfit(total, data, alpha, model)=(0.0087646,0.0067798,1.00,0.0019848) -- accept ratio 99.78%
+
+chain 1: 89.80%, misfit(total, data, alpha, model)=(0.0087870,0.0067220,1.00,0.0020650) -- accept ratio 99.78%
+
+chain 0: 92.60%, misfit(total, data, alpha, model)=(0.0087651,0.0067804,1.00,0.0019847) -- accept ratio 99.78%
+
+chain 1: 90.00%, misfit(total, data, alpha, model)=(0.0087870,0.0067219,1.00,0.0020650) -- accept ratio 99.78%
+
+chain 0: 92.80%, misfit(total, data, alpha, model)=(0.0087652,0.0067805,1.00,0.0019847) -- accept ratio 99.78%
+
+chain 0: 93.00%, misfit(total, data, alpha, model)=(0.0087652,0.0067805,1.00,0.0019847) -- accept ratio 99.79%
+
+chain 1: 90.20%, misfit(total, data, alpha, model)=(0.0087874,0.0067225,1.00,0.0020649) -- accept ratio 99.78%
+
+chain 0: 93.20%, misfit(total, data, alpha, model)=(0.0087645,0.0067797,1.00,0.0019848) -- accept ratio 99.79%
+
+chain 0: 93.40%, misfit(total, data, alpha, model)=(0.0087646,0.0067799,1.00,0.0019847) -- accept ratio 99.79%
+
+chain 1: 90.40%, misfit(total, data, alpha, model)=(0.0087857,0.0067207,1.00,0.0020650) -- accept ratio 99.78%
+
+chain 1: 90.60%, misfit(total, data, alpha, model)=(0.0087859,0.0067210,1.00,0.0020650) -- accept ratio 99.78%
+
+chain 0: 93.60%, misfit(total, data, alpha, model)=(0.0087640,0.0067793,1.00,0.0019847) -- accept ratio 99.79%
+
+chain 1: 90.80%, misfit(total, data, alpha, model)=(0.0087863,0.0067213,1.00,0.0020649) -- accept ratio 99.78%
+
+chain 1: 91.00%, misfit(total, data, alpha, model)=(0.0087866,0.0067217,1.00,0.0020649) -- accept ratio 99.78%
+
+chain 0: 93.80%, misfit(total, data, alpha, model)=(0.0087640,0.0067793,1.00,0.0019847) -- accept ratio 99.79%
+
+chain 0: 94.00%, misfit(total, data, alpha, model)=(0.0087630,0.0067783,1.00,0.0019847) -- accept ratio 99.79%
+
+chain 1: 91.20%, misfit(total, data, alpha, model)=(0.0087849,0.0067199,1.00,0.0020650) -- accept ratio 99.78%
+
+chain 0: 94.20%, misfit(total, data, alpha, model)=(0.0087637,0.0067791,1.00,0.0019846) -- accept ratio 99.79%
+
+chain 1: 91.40%, misfit(total, data, alpha, model)=(0.0087855,0.0067206,1.00,0.0020649) -- accept ratio 99.78%
+
+chain 0: 94.40%, misfit(total, data, alpha, model)=(0.0087635,0.0067790,1.00,0.0019846) -- accept ratio 99.79%
+
+chain 0: 94.60%, misfit(total, data, alpha, model)=(0.0087638,0.0067793,1.00,0.0019846) -- accept ratio 99.79%
+
+chain 0: 94.80%, misfit(total, data, alpha, model)=(0.0087634,0.0067788,1.00,0.0019846) -- accept ratio 99.79%
+
+chain 1: 91.60%, misfit(total, data, alpha, model)=(0.0087848,0.0067200,1.00,0.0020649) -- accept ratio 99.78%
+
+chain 0: 95.00%, misfit(total, data, alpha, model)=(0.0087630,0.0067784,1.00,0.0019846) -- accept ratio 99.79%
+
+chain 1: 91.80%, misfit(total, data, alpha, model)=(0.0087848,0.0067200,1.00,0.0020648) -- accept ratio 99.78%
+
+chain 0: 95.20%, misfit(total, data, alpha, model)=(0.0087632,0.0067786,1.00,0.0019846) -- accept ratio 99.79%
+
+chain 1: 92.00%, misfit(total, data, alpha, model)=(0.0087843,0.0067195,1.00,0.0020649) -- accept ratio 99.78%
+
+chain 0: 95.40%, misfit(total, data, alpha, model)=(0.0087633,0.0067788,1.00,0.0019845) -- accept ratio 99.79%
+
+chain 1: 92.20%, misfit(total, data, alpha, model)=(0.0087839,0.0067190,1.00,0.0020649) -- accept ratio 99.78%
+
+chain 0: 95.60%, misfit(total, data, alpha, model)=(0.0087626,0.0067781,1.00,0.0019845) -- accept ratio 99.79%
+
+chain 1: 92.40%, misfit(total, data, alpha, model)=(0.0087838,0.0067189,1.00,0.0020649) -- accept ratio 99.78%
+
+chain 1: 92.60%, misfit(total, data, alpha, model)=(0.0087846,0.0067198,1.00,0.0020648) -- accept ratio 99.78%
+
+chain 0: 95.80%, misfit(total, data, alpha, model)=(0.0087620,0.0067776,1.00,0.0019845) -- accept ratio 99.79%
+
+chain 1: 92.80%, misfit(total, data, alpha, model)=(0.0087828,0.0067179,1.00,0.0020649) -- accept ratio 99.78%
+
+chain 0: 96.00%, misfit(total, data, alpha, model)=(0.0087618,0.0067774,1.00,0.0019845) -- accept ratio 99.79%
+
+chain 1: 93.00%, misfit(total, data, alpha, model)=(0.0087837,0.0067188,1.00,0.0020649) -- accept ratio 99.79%
+
+chain 0: 96.20%, misfit(total, data, alpha, model)=(0.0087623,0.0067780,1.00,0.0019844) -- accept ratio 99.79%
+
+chain 1: 93.20%, misfit(total, data, alpha, model)=(0.0087832,0.0067183,1.00,0.0020649) -- accept ratio 99.79%
+
+chain 1: 93.40%, misfit(total, data, alpha, model)=(0.0087836,0.0067187,1.00,0.0020648) -- accept ratio 99.79%
+
+chain 0: 96.40%, misfit(total, data, alpha, model)=(0.0087616,0.0067771,1.00,0.0019844) -- accept ratio 99.79%
+
+chain 1: 93.60%, misfit(total, data, alpha, model)=(0.0087837,0.0067189,1.00,0.0020648) -- accept ratio 99.79%
+
+chain 0: 96.60%, misfit(total, data, alpha, model)=(0.0087612,0.0067769,1.00,0.0019844) -- accept ratio 99.79%
+
+chain 1: 93.80%, misfit(total, data, alpha, model)=(0.0087831,0.0067183,1.00,0.0020648) -- accept ratio 99.79%
+
+chain 1: 94.00%, misfit(total, data, alpha, model)=(0.0087833,0.0067185,1.00,0.0020648) -- accept ratio 99.79%
+
+chain 0: 96.80%, misfit(total, data, alpha, model)=(0.0087607,0.0067763,1.00,0.0019843) -- accept ratio 99.79%
+
+chain 1: 94.20%, misfit(total, data, alpha, model)=(0.0087832,0.0067184,1.00,0.0020648) -- accept ratio 99.79%
+
+chain 1: 94.40%, misfit(total, data, alpha, model)=(0.0087831,0.0067183,1.00,0.0020648) -- accept ratio 99.79%
+
+chain 0: 97.00%, misfit(total, data, alpha, model)=(0.0087608,0.0067765,1.00,0.0019843) -- accept ratio 99.79%
+
+chain 1: 94.60%, misfit(total, data, alpha, model)=(0.0087825,0.0067176,1.00,0.0020648) -- accept ratio 99.79%
+
+chain 0: 97.20%, misfit(total, data, alpha, model)=(0.0087600,0.0067757,1.00,0.0019843) -- accept ratio 99.79%
+
+chain 1: 94.80%, misfit(total, data, alpha, model)=(0.0087820,0.0067171,1.00,0.0020648) -- accept ratio 99.79%
+
+chain 1: 95.00%, misfit(total, data, alpha, model)=(0.0087823,0.0067175,1.00,0.0020648) -- accept ratio 99.79%
+
+chain 0: 97.40%, misfit(total, data, alpha, model)=(0.0087595,0.0067753,1.00,0.0019842) -- accept ratio 99.80%
+
+chain 0: 97.60%, misfit(total, data, alpha, model)=(0.0087602,0.0067760,1.00,0.0019841) -- accept ratio 99.80%
+
+chain 1: 95.20%, misfit(total, data, alpha, model)=(0.0087818,0.0067170,1.00,0.0020648) -- accept ratio 99.79%
+
+chain 0: 97.80%, misfit(total, data, alpha, model)=(0.0087602,0.0067761,1.00,0.0019841) -- accept ratio 99.80%
+
+chain 0: 98.00%, misfit(total, data, alpha, model)=(0.0087604,0.0067763,1.00,0.0019841) -- accept ratio 99.80%
+
+chain 1: 95.40%, misfit(total, data, alpha, model)=(0.0087817,0.0067170,1.00,0.0020648) -- accept ratio 99.79%
+
+chain 1: 95.60%, misfit(total, data, alpha, model)=(0.0087818,0.0067170,1.00,0.0020648) -- accept ratio 99.79%
+
+chain 0: 98.20%, misfit(total, data, alpha, model)=(0.0087597,0.0067756,1.00,0.0019841) -- accept ratio 99.80%
+
+chain 1: 95.80%, misfit(total, data, alpha, model)=(0.0087816,0.0067169,1.00,0.0020647) -- accept ratio 99.79%
+
+chain 0: 98.40%, misfit(total, data, alpha, model)=(0.0087593,0.0067752,1.00,0.0019841) -- accept ratio 99.80%
+
+chain 1: 96.00%, misfit(total, data, alpha, model)=(0.0087810,0.0067163,1.00,0.0020648) -- accept ratio 99.79%
+
+chain 0: 98.60%, misfit(total, data, alpha, model)=(0.0087588,0.0067747,1.00,0.0019841) -- accept ratio 99.80%
+
+chain 0: 98.80%, misfit(total, data, alpha, model)=(0.0087595,0.0067755,1.00,0.0019840) -- accept ratio 99.80%
+
+chain 1: 96.20%, misfit(total, data, alpha, model)=(0.0087809,0.0067162,1.00,0.0020647) -- accept ratio 99.79%
+
+chain 0: 99.00%, misfit(total, data, alpha, model)=(0.0087584,0.0067744,1.00,0.0019840) -- accept ratio 99.80%
+
+chain 1: 96.40%, misfit(total, data, alpha, model)=(0.0087808,0.0067161,1.00,0.0020647) -- accept ratio 99.79%
+
+chain 1: 96.60%, misfit(total, data, alpha, model)=(0.0087804,0.0067157,1.00,0.0020647) -- accept ratio 99.79%
+
+chain 0: 99.20%, misfit(total, data, alpha, model)=(0.0087590,0.0067751,1.00,0.0019838) -- accept ratio 99.80%
+
+chain 0: 99.40%, misfit(total, data, alpha, model)=(0.0087585,0.0067747,1.00,0.0019838) -- accept ratio 99.80%
+
+chain 1: 96.80%, misfit(total, data, alpha, model)=(0.0087803,0.0067156,1.00,0.0020647) -- accept ratio 99.79%
+
+chain 0: 99.60%, misfit(total, data, alpha, model)=(0.0087581,0.0067743,1.00,0.0019838) -- accept ratio 99.80%
+
+chain 0: 99.80%, misfit(total, data, alpha, model)=(0.0087575,0.0067737,1.00,0.0019838) -- accept ratio 99.80%
+
+chain 1: 97.00%, misfit(total, data, alpha, model)=(0.0087799,0.0067151,1.00,0.0020647) -- accept ratio 99.79%
+
+chain 0: 100.00%, misfit(total, data, alpha, model)=(0.0087574,0.0067735,1.00,0.0019838) -- accept ratio 99.80%
+
+total time: 29.54654288291931
+chain 1: 97.20%, misfit(total, data, alpha, model)=(0.0087806,0.0067159,1.00,0.0020646) -- accept ratio 99.79%
+
+chain 1: 97.40%, misfit(total, data, alpha, model)=(0.0087792,0.0067145,1.00,0.0020647) -- accept ratio 99.80%
+
+chain 1: 97.60%, misfit(total, data, alpha, model)=(0.0087793,0.0067147,1.00,0.0020646) -- accept ratio 99.80%
+
+chain 1: 97.80%, misfit(total, data, alpha, model)=(0.0087795,0.0067149,1.00,0.0020646) -- accept ratio 99.80%
+
+chain 1: 98.00%, misfit(total, data, alpha, model)=(0.0087790,0.0067144,1.00,0.0020647) -- accept ratio 99.80%
+
+chain 1: 98.20%, misfit(total, data, alpha, model)=(0.0087784,0.0067137,1.00,0.0020647) -- accept ratio 99.80%
+
+chain 1: 98.40%, misfit(total, data, alpha, model)=(0.0087788,0.0067141,1.00,0.0020647) -- accept ratio 99.80%
+
+chain 1: 98.60%, misfit(total, data, alpha, model)=(0.0087787,0.0067141,1.00,0.0020647) -- accept ratio 99.80%
+
+chain 1: 98.80%, misfit(total, data, alpha, model)=(0.0087787,0.0067141,1.00,0.0020646) -- accept ratio 99.80%
+
+chain 1: 99.00%, misfit(total, data, alpha, model)=(0.0087777,0.0067131,1.00,0.0020646) -- accept ratio 99.80%
+
+chain 1: 99.20%, misfit(total, data, alpha, model)=(0.0087781,0.0067135,1.00,0.0020646) -- accept ratio 99.80%
+
+chain 1: 99.40%, misfit(total, data, alpha, model)=(0.0087785,0.0067139,1.00,0.0020646) -- accept ratio 99.80%
+
+chain 1: 99.60%, misfit(total, data, alpha, model)=(0.0087776,0.0067130,1.00,0.0020646) -- accept ratio 99.80%
+
+chain 1: 99.80%, misfit(total, data, alpha, model)=(0.0087777,0.0067132,1.00,0.0020645) -- accept ratio 99.80%
+
+chain 1: 100.00%, misfit(total, data, alpha, model)=(0.0087778,0.0067133,1.00,0.0020645) -- accept ratio 99.80%
+
+total time: 30.237948179244995

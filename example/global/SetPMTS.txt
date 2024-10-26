@@ -1,0 +1,1 @@
+{"set": "model_global", "test": "T1", "rhomin": 0, "rhomax": 0.8, "mspacing": [3, 3, -300000], "Lrange": [5, 20], "delta": 0.005, "Sigma": 0.001, "RegulFactor": 0.05, "regularization": "Damping", "beta": 0.01, "nsamples": 500}

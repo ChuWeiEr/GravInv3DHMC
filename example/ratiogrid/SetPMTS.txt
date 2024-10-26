@@ -1,0 +1,1 @@
+{"set": "model_ratio", "test": "T1", "rhomin": 0, "rhomax": 0.4, "mspacing": [200, 200, 200],"mratio": 1.05, "Lrange": [5, 20], "delta": 0.01, "Sigma": 0.001, "RegulFactor": 1, "regularization": "MS", "beta": 0.001, "nsamples": 500}
