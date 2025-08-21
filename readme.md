@@ -285,10 +285,10 @@ maxk：最大迭代次数
 ##### reference
 https://www.fatiando.org/  
 
-博士论文（中英文信息）：
-基于 HMC 采样的三维重力反演及其在华南陆缘密度结构研究中的应用, 褚伟，2024.06，中国科学院大学
-Three-dimensional gravity inversion based on HMC sampling and its application in the study of density structure of the South China continental margin, Chu Wei, 2024.06, University of Chinese Academy of Sciences
+博士论文（中英文信息）：  
+基于 HMC 采样的三维重力反演及其在华南陆缘密度结构研究中的应用, 褚伟，2024.06，中国科学院大学  
+Three-dimensional gravity inversion based on HMC sampling and its application in the study of density structure of the South China continental margin, Chu Wei, 2024.06, University of Chinese Academy of Sciences  
 
-另外，工作也发表在了《中国科学-地球科学》上，中英文页面如下：
-https://doi.org/10.1360/SSTe-2024-0134
-https://doi.org/10.1007/s11430-024-1574-x
+另外，工作也发表在了《中国科学-地球科学》上，中英文页面如下：  
+https://doi.org/10.1360/SSTe-2024-0134  
+https://doi.org/10.1007/s11430-024-1574-x  
